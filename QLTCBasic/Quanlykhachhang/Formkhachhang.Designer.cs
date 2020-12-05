@@ -56,7 +56,7 @@
             // 
             this.txtDiachi.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtDiachi.Location = new System.Drawing.Point(197, 133);
-            this.txtDiachi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiachi.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiachi.Name = "txtDiachi";
             this.txtDiachi.Size = new System.Drawing.Size(289, 27);
             this.txtDiachi.TabIndex = 35;
@@ -77,8 +77,11 @@
             // cmbTypekhach
             // 
             this.cmbTypekhach.FormattingEnabled = true;
+            this.cmbTypekhach.Items.AddRange(new object[] {
+            "Thường",
+            "V.I.P"});
             this.cmbTypekhach.Location = new System.Drawing.Point(732, 59);
-            this.cmbTypekhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbTypekhach.Margin = new System.Windows.Forms.Padding(4);
             this.cmbTypekhach.Name = "cmbTypekhach";
             this.cmbTypekhach.Size = new System.Drawing.Size(289, 24);
             this.cmbTypekhach.TabIndex = 31;
@@ -99,8 +102,11 @@
             // cmbStatuskhach
             // 
             this.cmbStatuskhach.FormattingEnabled = true;
+            this.cmbStatuskhach.Items.AddRange(new object[] {
+            "Còn hiệu lực",
+            "Vô hiệu lực"});
             this.cmbStatuskhach.Location = new System.Drawing.Point(732, 26);
-            this.cmbStatuskhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbStatuskhach.Margin = new System.Windows.Forms.Padding(4);
             this.cmbStatuskhach.Name = "cmbStatuskhach";
             this.cmbStatuskhach.Size = new System.Drawing.Size(289, 24);
             this.cmbStatuskhach.TabIndex = 29;
@@ -122,7 +128,7 @@
             // 
             this.txtNgaysinh.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtNgaysinh.Location = new System.Drawing.Point(197, 62);
-            this.txtNgaysinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNgaysinh.Margin = new System.Windows.Forms.Padding(4);
             this.txtNgaysinh.Name = "txtNgaysinh";
             this.txtNgaysinh.Size = new System.Drawing.Size(289, 27);
             this.txtNgaysinh.TabIndex = 27;
@@ -144,7 +150,7 @@
             // 
             this.txtMakhach.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtMakhach.Location = new System.Drawing.Point(197, 97);
-            this.txtMakhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMakhach.Margin = new System.Windows.Forms.Padding(4);
             this.txtMakhach.Name = "txtMakhach";
             this.txtMakhach.Size = new System.Drawing.Size(289, 27);
             this.txtMakhach.TabIndex = 25;
@@ -166,7 +172,7 @@
             // 
             this.txtTenkhach.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTenkhach.Location = new System.Drawing.Point(197, 26);
-            this.txtTenkhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenkhach.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenkhach.Name = "txtTenkhach";
             this.txtTenkhach.Size = new System.Drawing.Size(289, 27);
             this.txtTenkhach.TabIndex = 23;
@@ -191,7 +197,7 @@
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnBack.Location = new System.Drawing.Point(1067, 25);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(215, 46);
             this.btnBack.TabIndex = 21;
@@ -201,11 +207,12 @@
             // 
             // dgvKhach
             // 
+            this.dgvKhach.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvKhach.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgvKhach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvKhach.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvKhach.Location = new System.Drawing.Point(13, 204);
-            this.dgvKhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvKhach.Margin = new System.Windows.Forms.Padding(4);
             this.dgvKhach.Name = "dgvKhach";
             this.dgvKhach.RowHeadersWidth = 51;
             this.dgvKhach.Size = new System.Drawing.Size(1268, 468);
@@ -215,7 +222,7 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1299, 704);
             this.pictureBox1.TabIndex = 19;
@@ -228,7 +235,7 @@
             this.btnDelkhach.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnDelkhach.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnDelkhach.Location = new System.Drawing.Point(1077, 97);
-            this.btnDelkhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelkhach.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelkhach.Name = "btnDelkhach";
             this.btnDelkhach.Size = new System.Drawing.Size(204, 100);
             this.btnDelkhach.TabIndex = 60;
@@ -243,7 +250,7 @@
             this.btnEditkhach.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnEditkhach.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnEditkhach.Location = new System.Drawing.Point(813, 97);
-            this.btnEditkhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEditkhach.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditkhach.Name = "btnEditkhach";
             this.btnEditkhach.Size = new System.Drawing.Size(204, 100);
             this.btnEditkhach.TabIndex = 59;
@@ -258,7 +265,7 @@
             this.btnAddkhach.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnAddkhach.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnAddkhach.Location = new System.Drawing.Point(549, 97);
-            this.btnAddkhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddkhach.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddkhach.Name = "btnAddkhach";
             this.btnAddkhach.Size = new System.Drawing.Size(204, 100);
             this.btnAddkhach.TabIndex = 58;
@@ -270,7 +277,7 @@
             // 
             this.txtCMND.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtCMND.Location = new System.Drawing.Point(197, 169);
-            this.txtCMND.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCMND.Margin = new System.Windows.Forms.Padding(4);
             this.txtCMND.Name = "txtCMND";
             this.txtCMND.Size = new System.Drawing.Size(289, 27);
             this.txtCMND.TabIndex = 62;
@@ -313,7 +320,7 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dgvKhach);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Formkhachhang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

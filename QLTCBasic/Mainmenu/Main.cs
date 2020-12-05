@@ -21,57 +21,54 @@ namespace QLTCBasic
         {
             this.Hide();
             var sanh = new Formsanh();
-            sanh.Closed += (s, args) => this.Close();
-            sanh.Show();
+            sanh.ShowDialog();
+            this.Show();
         }
 
         private void btnTracuu_Click(object sender, EventArgs e)
         {
             this.Hide();
             var tracuu = new Formtracuu();
-            tracuu.Closed += (s, args) => this.Close();
-            tracuu.Show();
+            tracuu.ShowDialog();
+            this.Show();
         }
 
         private void btnKhachhang_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var khach = new Formkhachhang();
-            khach.Closed += (s, args) => this.Close();
-            khach.Show();
+            Formkhachhang khach = new Formkhachhang();
+            khach.ShowDialog();
+            this.Show();
         }
 
         private void btnTaichinh_Click(object sender, EventArgs e)
         {
             this.Hide();
             var lap = new FormLap();
-            lap.Closed += (s, args) => this.Close();
-            lap.Show();
+            lap.ShowDialog();
+            this.Show();
         }
 
         private void btnHopdong_Click(object sender, EventArgs e)
         {
             this.Hide();
             var hopdong = new FormHopdong();
-            hopdong.Closed += (s, args) => this.Close();
-            hopdong.Show();
+            hopdong.ShowDialog();
+            this.Show();
         }
 
         private void btnBaocao_Click(object sender, EventArgs e)
         {
             this.Hide();
             var baocao = new Formbaocao();
-            baocao.Closed += (s, args) => this.Close();
-            baocao.Show();
+            baocao.ShowDialog();
+            this.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            MessageBox.Show("Đăng xuất thành công!");
+            MessageBox.Show("Đăng xuất thành công");
             this.Hide();
-            var login = new Login();
-            login.Closed += (s, args) => this.Close();
-            login.Show();
         }
     }
 }
