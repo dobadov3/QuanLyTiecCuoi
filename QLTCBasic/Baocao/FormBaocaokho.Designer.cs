@@ -41,9 +41,10 @@
             this.button1.ForeColor = System.Drawing.Color.Crimson;
             this.button1.Image = global::QLTCBasic.Properties.Resources._33;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button1.Location = new System.Drawing.Point(520, 237);
+            this.button1.Location = new System.Drawing.Point(693, 292);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 94);
+            this.button1.Size = new System.Drawing.Size(265, 116);
             this.button1.TabIndex = 25;
             this.button1.Text = "Báo cáo xuất kho";
             this.button1.UseVisualStyleBackColor = true;
@@ -55,9 +56,10 @@
             this.button4.ForeColor = System.Drawing.Color.Crimson;
             this.button4.Image = global::QLTCBasic.Properties.Resources._33;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button4.Location = new System.Drawing.Point(278, 237);
+            this.button4.Location = new System.Drawing.Point(371, 292);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(199, 94);
+            this.button4.Size = new System.Drawing.Size(265, 116);
             this.button4.TabIndex = 24;
             this.button4.Text = "Báo cáo nhập kho";
             this.button4.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@
             this.btnBack.ForeColor = System.Drawing.Color.Crimson;
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBack.Location = new System.Drawing.Point(838, 17);
+            this.btnBack.Location = new System.Drawing.Point(1117, 21);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(135, 37);
+            this.btnBack.Size = new System.Drawing.Size(180, 46);
             this.btnBack.TabIndex = 23;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -80,23 +83,26 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -5);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(974, 566);
+            this.pictureBox1.Size = new System.Drawing.Size(1299, 697);
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
             // FormBaocaokho
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 551);
+            this.ClientSize = new System.Drawing.Size(1299, 678);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormBaocaokho";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo cáo kho";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

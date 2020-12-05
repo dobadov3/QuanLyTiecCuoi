@@ -37,8 +37,17 @@
     <Reference Include="DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms.Ribbon, Version=2.0.0.0, Culture=neutral, PublicKeyToken=928736e248aa81f9, processorArchitecture=MSIL">
       <HintPath>..\packages\RibbonWinForms.5.0.1.1\lib\net472\System.Windows.Forms.Ribbon.dll</HintPath>
     </Reference>
@@ -53,6 +62,83 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS\AccountBUS.cs" />
+    <Compile Include="DAL\Account.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\BAN.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\BIENLAI.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CA.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CHITIETBAN.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CHITIETDV.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CHITIETMONAN.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CTBCBAOTRISANH.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CTBCDOANHTHUTHEOTHANG.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CTBCNHAPKHO.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CTBCTHUCHITHEONGAY.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CTBCXUATKHO.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\database_firewall_rules.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\DICHVU.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\HOADON.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\HOPDONG.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\KHACHHANG.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\MONAN.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\SANH.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\TIECCUOI.cs">
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Wedding.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Wedding.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Wedding.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Wedding.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Wedding.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Wedding.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="Dich vu\FormHoadon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +314,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EntityDeploy Include="DAL\Wedding.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Wedding.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DAL\Wedding.edmx.diagram">
+      <DependentUpon>Wedding.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -271,6 +364,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DAL\Wedding.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Wedding.Context.cs</LastGenOutput>
+      <DependentUpon>Wedding.edmx</DependentUpon>
+    </Content>
+    <Content Include="DAL\Wedding.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Wedding.edmx</DependentUpon>
+      <LastGenOutput>Wedding.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
