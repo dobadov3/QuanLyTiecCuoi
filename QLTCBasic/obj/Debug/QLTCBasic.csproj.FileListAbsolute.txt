@@ -1,0 +1,136 @@
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\QLTCBasic.exe.config
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\QLTCBasic.exe
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\QLTCBasic.pdb
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.csprojAssemblyReference.cache
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Form1.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Properties.Resources.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.csproj.GenerateResource.cache
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.csproj.CoreCompileInputs.cache
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.exe
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.pdb
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Login.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Main.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Data.v19.2.xml
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.exe.licenses
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.csproj.CopyComplete
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\bin\Debug\System.Windows.Forms.Ribbon.dll
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Formsanh.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Formtracuu.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Formkhachhang.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormHopdong.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Formbaocao.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaobaotri.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaotaichinh.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaonhapkho.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaokho.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaoxuatkho.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaodoanhthuthang.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaothuchingay.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormLap.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormPhieudattiec.resources
+D:\Jack\Information Technology\Junior\HKI\Cong nghe phan mem\QLTCBasic\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormHoadon.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\QLTCBasic.exe.config
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\QLTCBasic.exe
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\QLTCBasic.pdb
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\System.Windows.Forms.Ribbon.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Data.v19.2.xml
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.csprojAssemblyReference.cache
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormHoadon.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Form1.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Formbaocao.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaobaotri.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaodoanhthuthang.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaokho.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaonhapkho.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaotaichinh.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaothuchingay.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormBaocaoxuatkho.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormHopdong.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Formkhachhang.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormLap.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.FormPhieudattiec.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Formsanh.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Formtracuu.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Login.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Main.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.Properties.Resources.resources
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.csproj.GenerateResource.cache
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.exe.licenses
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.csproj.CoreCompileInputs.cache
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.csproj.CopyComplete
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.exe
+D:\LapTrinh\CNPM\KHT\QLTCBasic\QLTCBasic\obj\Debug\QLTCBasic.pdb
