@@ -75,27 +75,30 @@
             this.label11.ForeColor = System.Drawing.Color.Crimson;
             this.label11.Image = global::QLTCBasic.Properties.Resources._33;
             this.label11.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label11.Location = new System.Drawing.Point(13, 239);
+            this.label11.Location = new System.Drawing.Point(17, 294);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(131, 22);
+            this.label11.Size = new System.Drawing.Size(175, 27);
             this.label11.TabIndex = 141;
             this.label11.Text = "Chi tiết";
             // 
             // txtChitiet
             // 
             this.txtChitiet.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtChitiet.Location = new System.Drawing.Point(150, 239);
+            this.txtChitiet.Location = new System.Drawing.Point(200, 294);
+            this.txtChitiet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtChitiet.Multiline = true;
             this.txtChitiet.Name = "txtChitiet";
-            this.txtChitiet.Size = new System.Drawing.Size(804, 98);
+            this.txtChitiet.Size = new System.Drawing.Size(1071, 120);
             this.txtChitiet.TabIndex = 140;
             // 
             // cmbSanh
             // 
             this.cmbSanh.FormattingEnabled = true;
-            this.cmbSanh.Location = new System.Drawing.Point(150, 212);
+            this.cmbSanh.Location = new System.Drawing.Point(200, 261);
+            this.cmbSanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbSanh.Name = "cmbSanh";
-            this.cmbSanh.Size = new System.Drawing.Size(218, 21);
+            this.cmbSanh.Size = new System.Drawing.Size(289, 24);
             this.cmbSanh.TabIndex = 139;
             // 
             // label10
@@ -104,18 +107,20 @@
             this.label10.ForeColor = System.Drawing.Color.Crimson;
             this.label10.Image = global::QLTCBasic.Properties.Resources._33;
             this.label10.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label10.Location = new System.Drawing.Point(13, 212);
+            this.label10.Location = new System.Drawing.Point(17, 261);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(131, 22);
+            this.label10.Size = new System.Drawing.Size(175, 27);
             this.label10.TabIndex = 138;
             this.label10.Text = "Sảnh";
             // 
             // txtDongiaban
             // 
             this.txtDongiaban.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtDongiaban.Location = new System.Drawing.Point(547, 105);
+            this.txtDongiaban.Location = new System.Drawing.Point(729, 129);
+            this.txtDongiaban.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDongiaban.Name = "txtDongiaban";
-            this.txtDongiaban.Size = new System.Drawing.Size(218, 23);
+            this.txtDongiaban.Size = new System.Drawing.Size(289, 27);
             this.txtDongiaban.TabIndex = 137;
             // 
             // label9
@@ -124,26 +129,29 @@
             this.label9.ForeColor = System.Drawing.Color.Crimson;
             this.label9.Image = global::QLTCBasic.Properties.Resources._33;
             this.label9.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label9.Location = new System.Drawing.Point(410, 103);
+            this.label9.Location = new System.Drawing.Point(547, 127);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(131, 22);
+            this.label9.Size = new System.Drawing.Size(175, 27);
             this.label9.TabIndex = 136;
             this.label9.Text = "Đơn giá bàn";
             // 
             // cmbCa
             // 
             this.cmbCa.FormattingEnabled = true;
-            this.cmbCa.Location = new System.Drawing.Point(150, 187);
+            this.cmbCa.Location = new System.Drawing.Point(200, 230);
+            this.cmbCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbCa.Name = "cmbCa";
-            this.cmbCa.Size = new System.Drawing.Size(218, 21);
+            this.cmbCa.Size = new System.Drawing.Size(289, 24);
             this.cmbCa.TabIndex = 134;
             // 
             // txtNgaythanhtoan
             // 
             this.txtNgaythanhtoan.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgaythanhtoan.Location = new System.Drawing.Point(547, 76);
+            this.txtNgaythanhtoan.Location = new System.Drawing.Point(729, 94);
+            this.txtNgaythanhtoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNgaythanhtoan.Name = "txtNgaythanhtoan";
-            this.txtNgaythanhtoan.Size = new System.Drawing.Size(218, 23);
+            this.txtNgaythanhtoan.Size = new System.Drawing.Size(289, 27);
             this.txtNgaythanhtoan.TabIndex = 133;
             // 
             // label8
@@ -152,18 +160,20 @@
             this.label8.ForeColor = System.Drawing.Color.Crimson;
             this.label8.Image = global::QLTCBasic.Properties.Resources._33;
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label8.Location = new System.Drawing.Point(410, 74);
+            this.label8.Location = new System.Drawing.Point(547, 91);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(131, 22);
+            this.label8.Size = new System.Drawing.Size(175, 27);
             this.label8.TabIndex = 132;
             this.label8.Text = "Ngày thanh toán";
             // 
             // txtMahoadon
             // 
             this.txtMahoadon.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtMahoadon.Location = new System.Drawing.Point(150, 42);
+            this.txtMahoadon.Location = new System.Drawing.Point(200, 52);
+            this.txtMahoadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMahoadon.Name = "txtMahoadon";
-            this.txtMahoadon.Size = new System.Drawing.Size(218, 23);
+            this.txtMahoadon.Size = new System.Drawing.Size(289, 27);
             this.txtMahoadon.TabIndex = 131;
             // 
             // label7
@@ -172,9 +182,10 @@
             this.label7.ForeColor = System.Drawing.Color.Crimson;
             this.label7.Image = global::QLTCBasic.Properties.Resources._33;
             this.label7.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label7.Location = new System.Drawing.Point(13, 40);
+            this.label7.Location = new System.Drawing.Point(17, 49);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(131, 22);
+            this.label7.Size = new System.Drawing.Size(175, 27);
             this.label7.TabIndex = 130;
             this.label7.Text = "Mã hóa đơn";
             // 
@@ -184,9 +195,10 @@
             this.label6.ForeColor = System.Drawing.Color.Crimson;
             this.label6.Image = global::QLTCBasic.Properties.Resources._33;
             this.label6.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label6.Location = new System.Drawing.Point(13, 158);
+            this.label6.Location = new System.Drawing.Point(17, 194);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 22);
+            this.label6.Size = new System.Drawing.Size(175, 27);
             this.label6.TabIndex = 129;
             this.label6.Text = "Ngày tổ chức tiệc";
             // 
@@ -196,9 +208,10 @@
             this.label1.ForeColor = System.Drawing.Color.Crimson;
             this.label1.Image = global::QLTCBasic.Properties.Resources._33;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label1.Location = new System.Drawing.Point(13, 185);
+            this.label1.Location = new System.Drawing.Point(17, 228);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 22);
+            this.label1.Size = new System.Drawing.Size(175, 27);
             this.label1.TabIndex = 128;
             this.label1.Text = "Ca";
             // 
@@ -208,9 +221,10 @@
             this.btnXoadon.ForeColor = System.Drawing.Color.Crimson;
             this.btnXoadon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnXoadon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnXoadon.Location = new System.Drawing.Point(801, 138);
+            this.btnXoadon.Location = new System.Drawing.Point(1068, 170);
+            this.btnXoadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXoadon.Name = "btnXoadon";
-            this.btnXoadon.Size = new System.Drawing.Size(153, 81);
+            this.btnXoadon.Size = new System.Drawing.Size(204, 100);
             this.btnXoadon.TabIndex = 127;
             this.btnXoadon.Text = "Xóa đơn đặt tiệc";
             this.btnXoadon.UseVisualStyleBackColor = true;
@@ -222,9 +236,10 @@
             this.btnSuadon.ForeColor = System.Drawing.Color.Crimson;
             this.btnSuadon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnSuadon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnSuadon.Location = new System.Drawing.Point(606, 138);
+            this.btnSuadon.Location = new System.Drawing.Point(808, 170);
+            this.btnSuadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSuadon.Name = "btnSuadon";
-            this.btnSuadon.Size = new System.Drawing.Size(159, 81);
+            this.btnSuadon.Size = new System.Drawing.Size(212, 100);
             this.btnSuadon.TabIndex = 126;
             this.btnSuadon.Text = "Sửa đơn đặt tiệc";
             this.btnSuadon.UseVisualStyleBackColor = true;
@@ -236,9 +251,10 @@
             this.btnLapdon.ForeColor = System.Drawing.Color.Crimson;
             this.btnLapdon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnLapdon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnLapdon.Location = new System.Drawing.Point(413, 138);
+            this.btnLapdon.Location = new System.Drawing.Point(551, 170);
+            this.btnLapdon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLapdon.Name = "btnLapdon";
-            this.btnLapdon.Size = new System.Drawing.Size(158, 81);
+            this.btnLapdon.Size = new System.Drawing.Size(211, 100);
             this.btnLapdon.TabIndex = 125;
             this.btnLapdon.Text = "Lập đơn đặt tiệc";
             this.btnLapdon.UseVisualStyleBackColor = true;
@@ -247,9 +263,10 @@
             // txtNgaytochuc
             // 
             this.txtNgaytochuc.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgaytochuc.Location = new System.Drawing.Point(150, 158);
+            this.txtNgaytochuc.Location = new System.Drawing.Point(200, 194);
+            this.txtNgaytochuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNgaytochuc.Name = "txtNgaytochuc";
-            this.txtNgaytochuc.Size = new System.Drawing.Size(218, 23);
+            this.txtNgaytochuc.Size = new System.Drawing.Size(289, 27);
             this.txtNgaytochuc.TabIndex = 124;
             // 
             // label5
@@ -258,18 +275,20 @@
             this.label5.ForeColor = System.Drawing.Color.Crimson;
             this.label5.Image = global::QLTCBasic.Properties.Resources._33;
             this.label5.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label5.Location = new System.Drawing.Point(13, 128);
+            this.label5.Location = new System.Drawing.Point(17, 158);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 22);
+            this.label5.Size = new System.Drawing.Size(175, 27);
             this.label5.TabIndex = 123;
             this.label5.Text = "Hóa đơn lần thứ";
             // 
             // txtTencodau
             // 
             this.txtTencodau.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTencodau.Location = new System.Drawing.Point(150, 100);
+            this.txtTencodau.Location = new System.Drawing.Point(200, 123);
+            this.txtTencodau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTencodau.Name = "txtTencodau";
-            this.txtTencodau.Size = new System.Drawing.Size(218, 23);
+            this.txtTencodau.Size = new System.Drawing.Size(289, 27);
             this.txtTencodau.TabIndex = 122;
             // 
             // label4
@@ -278,9 +297,10 @@
             this.label4.ForeColor = System.Drawing.Color.Crimson;
             this.label4.Image = global::QLTCBasic.Properties.Resources._33;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label4.Location = new System.Drawing.Point(13, 99);
+            this.label4.Location = new System.Drawing.Point(17, 122);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 22);
+            this.label4.Size = new System.Drawing.Size(175, 27);
             this.label4.TabIndex = 121;
             this.label4.Text = "Tên cô dâu";
             // 
@@ -290,18 +310,20 @@
             this.label3.ForeColor = System.Drawing.Color.Crimson;
             this.label3.Image = global::QLTCBasic.Properties.Resources._33;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label3.Location = new System.Drawing.Point(410, 47);
+            this.label3.Location = new System.Drawing.Point(547, 58);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 27);
+            this.label3.Size = new System.Drawing.Size(175, 33);
             this.label3.TabIndex = 119;
             this.label3.Text = "Số lượng bàn";
             // 
             // txtTenchure
             // 
             this.txtTenchure.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTenchure.Location = new System.Drawing.Point(150, 71);
+            this.txtTenchure.Location = new System.Drawing.Point(200, 87);
+            this.txtTenchure.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenchure.Name = "txtTenchure";
-            this.txtTenchure.Size = new System.Drawing.Size(218, 23);
+            this.txtTenchure.Size = new System.Drawing.Size(289, 27);
             this.txtTenchure.TabIndex = 118;
             // 
             // label2
@@ -310,9 +332,10 @@
             this.label2.ForeColor = System.Drawing.Color.Crimson;
             this.label2.Image = global::QLTCBasic.Properties.Resources._33;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label2.Location = new System.Drawing.Point(13, 69);
+            this.label2.Location = new System.Drawing.Point(17, 85);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 22);
+            this.label2.Size = new System.Drawing.Size(175, 27);
             this.label2.TabIndex = 117;
             this.label2.Text = "Tên chú rể";
             // 
@@ -322,9 +345,10 @@
             this.btnBack.ForeColor = System.Drawing.Color.Crimson;
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBack.Location = new System.Drawing.Point(801, 42);
+            this.btnBack.Location = new System.Drawing.Point(1068, 52);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(153, 28);
+            this.btnBack.Size = new System.Drawing.Size(204, 34);
             this.btnBack.TabIndex = 116;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -334,26 +358,29 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(974, 572);
+            this.pictureBox1.Size = new System.Drawing.Size(1299, 704);
             this.pictureBox1.TabIndex = 114;
             this.pictureBox1.TabStop = false;
             // 
             // cmbHoadonlanthu
             // 
             this.cmbHoadonlanthu.FormattingEnabled = true;
-            this.cmbHoadonlanthu.ItemHeight = 13;
-            this.cmbHoadonlanthu.Location = new System.Drawing.Point(150, 127);
+            this.cmbHoadonlanthu.ItemHeight = 16;
+            this.cmbHoadonlanthu.Location = new System.Drawing.Point(200, 156);
+            this.cmbHoadonlanthu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbHoadonlanthu.Name = "cmbHoadonlanthu";
-            this.cmbHoadonlanthu.Size = new System.Drawing.Size(218, 21);
+            this.cmbHoadonlanthu.Size = new System.Drawing.Size(289, 24);
             this.cmbHoadonlanthu.TabIndex = 142;
             // 
             // txtSoluongban
             // 
             this.txtSoluongban.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtSoluongban.Location = new System.Drawing.Point(547, 47);
+            this.txtSoluongban.Location = new System.Drawing.Point(729, 58);
+            this.txtSoluongban.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoluongban.Name = "txtSoluongban";
-            this.txtSoluongban.Size = new System.Drawing.Size(218, 23);
+            this.txtSoluongban.Size = new System.Drawing.Size(289, 27);
             this.txtSoluongban.TabIndex = 143;
             // 
             // label12
@@ -362,18 +389,20 @@
             this.label12.ForeColor = System.Drawing.Color.Crimson;
             this.label12.Image = global::QLTCBasic.Properties.Resources._33;
             this.label12.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label12.Location = new System.Drawing.Point(13, 343);
+            this.label12.Location = new System.Drawing.Point(17, 422);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(131, 22);
+            this.label12.Size = new System.Drawing.Size(175, 27);
             this.label12.TabIndex = 145;
             this.label12.Text = "Tiền đặt cọc";
             // 
             // txtTiendatcoc
             // 
             this.txtTiendatcoc.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTiendatcoc.Location = new System.Drawing.Point(150, 343);
+            this.txtTiendatcoc.Location = new System.Drawing.Point(200, 422);
+            this.txtTiendatcoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTiendatcoc.Name = "txtTiendatcoc";
-            this.txtTiendatcoc.Size = new System.Drawing.Size(218, 23);
+            this.txtTiendatcoc.Size = new System.Drawing.Size(289, 27);
             this.txtTiendatcoc.TabIndex = 144;
             // 
             // label13
@@ -382,18 +411,20 @@
             this.label13.ForeColor = System.Drawing.Color.Crimson;
             this.label13.Image = global::QLTCBasic.Properties.Resources._33;
             this.label13.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label13.Location = new System.Drawing.Point(13, 372);
+            this.label13.Location = new System.Drawing.Point(17, 458);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(131, 22);
+            this.label13.Size = new System.Drawing.Size(175, 27);
             this.label13.TabIndex = 147;
             this.label13.Text = "Thành tiền dịch vụ";
             // 
             // txtThanhtiendichvu
             // 
             this.txtThanhtiendichvu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtThanhtiendichvu.Location = new System.Drawing.Point(150, 372);
+            this.txtThanhtiendichvu.Location = new System.Drawing.Point(200, 458);
+            this.txtThanhtiendichvu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtThanhtiendichvu.Name = "txtThanhtiendichvu";
-            this.txtThanhtiendichvu.Size = new System.Drawing.Size(218, 23);
+            this.txtThanhtiendichvu.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtiendichvu.TabIndex = 146;
             // 
             // label14
@@ -402,18 +433,20 @@
             this.label14.ForeColor = System.Drawing.Color.Crimson;
             this.label14.Image = global::QLTCBasic.Properties.Resources._33;
             this.label14.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label14.Location = new System.Drawing.Point(410, 343);
+            this.label14.Location = new System.Drawing.Point(547, 422);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(131, 22);
+            this.label14.Size = new System.Drawing.Size(175, 27);
             this.label14.TabIndex = 149;
             this.label14.Text = "Thành tiền phải trả";
             // 
             // txtThanhtienphaitra
             // 
             this.txtThanhtienphaitra.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtThanhtienphaitra.Location = new System.Drawing.Point(547, 343);
+            this.txtThanhtienphaitra.Location = new System.Drawing.Point(729, 422);
+            this.txtThanhtienphaitra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtThanhtienphaitra.Name = "txtThanhtienphaitra";
-            this.txtThanhtienphaitra.Size = new System.Drawing.Size(218, 23);
+            this.txtThanhtienphaitra.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtienphaitra.TabIndex = 148;
             // 
             // label15
@@ -422,18 +455,20 @@
             this.label15.ForeColor = System.Drawing.Color.Crimson;
             this.label15.Image = global::QLTCBasic.Properties.Resources._33;
             this.label15.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label15.Location = new System.Drawing.Point(410, 372);
+            this.label15.Location = new System.Drawing.Point(547, 458);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(131, 22);
+            this.label15.Size = new System.Drawing.Size(175, 27);
             this.label15.TabIndex = 151;
             this.label15.Text = "Thành tiền đã trả";
             // 
             // txtThanhtiendatra
             // 
             this.txtThanhtiendatra.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtThanhtiendatra.Location = new System.Drawing.Point(547, 372);
+            this.txtThanhtiendatra.Location = new System.Drawing.Point(729, 458);
+            this.txtThanhtiendatra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtThanhtiendatra.Name = "txtThanhtiendatra";
-            this.txtThanhtiendatra.Size = new System.Drawing.Size(218, 23);
+            this.txtThanhtiendatra.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtiendatra.TabIndex = 150;
             // 
             // label16
@@ -442,18 +477,20 @@
             this.label16.ForeColor = System.Drawing.Color.Crimson;
             this.label16.Image = global::QLTCBasic.Properties.Resources._33;
             this.label16.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label16.Location = new System.Drawing.Point(13, 401);
+            this.label16.Location = new System.Drawing.Point(17, 494);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(131, 22);
+            this.label16.Size = new System.Drawing.Size(175, 27);
             this.label16.TabIndex = 153;
             this.label16.Text = "Thành tiền còn lại";
             // 
             // txtThanhtienconlai
             // 
             this.txtThanhtienconlai.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtThanhtienconlai.Location = new System.Drawing.Point(150, 401);
+            this.txtThanhtienconlai.Location = new System.Drawing.Point(200, 494);
+            this.txtThanhtienconlai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtThanhtienconlai.Name = "txtThanhtienconlai";
-            this.txtThanhtienconlai.Size = new System.Drawing.Size(218, 23);
+            this.txtThanhtienconlai.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtienconlai.TabIndex = 152;
             // 
             // btnTracuu
@@ -462,9 +499,10 @@
             this.btnTracuu.ForeColor = System.Drawing.Color.Crimson;
             this.btnTracuu.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnTracuu.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnTracuu.Location = new System.Drawing.Point(801, 342);
+            this.btnTracuu.Location = new System.Drawing.Point(1068, 421);
+            this.btnTracuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTracuu.Name = "btnTracuu";
-            this.btnTracuu.Size = new System.Drawing.Size(153, 81);
+            this.btnTracuu.Size = new System.Drawing.Size(204, 100);
             this.btnTracuu.TabIndex = 154;
             this.btnTracuu.Text = "Tra cứu hóa đơn";
             this.btnTracuu.UseVisualStyleBackColor = true;
@@ -472,9 +510,9 @@
             // 
             // FormHoadon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(971, 467);
+            this.ClientSize = new System.Drawing.Size(1295, 575);
             this.Controls.Add(this.btnTracuu);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.txtThanhtienconlai);
@@ -513,8 +551,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormHoadon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormHoadon";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

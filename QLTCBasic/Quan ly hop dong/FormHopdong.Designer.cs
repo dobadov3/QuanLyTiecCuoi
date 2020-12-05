@@ -55,49 +55,55 @@
             // txtMahopdong
             // 
             this.txtMahopdong.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtMahopdong.Location = new System.Drawing.Point(148, 136);
+            this.txtMahopdong.Location = new System.Drawing.Point(197, 167);
+            this.txtMahopdong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMahopdong.Name = "txtMahopdong";
-            this.txtMahopdong.Size = new System.Drawing.Size(218, 23);
+            this.txtMahopdong.Size = new System.Drawing.Size(289, 27);
             this.txtMahopdong.TabIndex = 82;
             // 
             // txtNgaylap
             // 
             this.txtNgaylap.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgaylap.Location = new System.Drawing.Point(148, 107);
+            this.txtNgaylap.Location = new System.Drawing.Point(197, 132);
+            this.txtNgaylap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNgaylap.Name = "txtNgaylap";
-            this.txtNgaylap.Size = new System.Drawing.Size(218, 23);
+            this.txtNgaylap.Size = new System.Drawing.Size(289, 27);
             this.txtNgaylap.TabIndex = 77;
             // 
             // cmbStatushopdong
             // 
             this.cmbStatushopdong.FormattingEnabled = true;
-            this.cmbStatushopdong.Location = new System.Drawing.Point(549, 20);
+            this.cmbStatushopdong.Location = new System.Drawing.Point(732, 25);
+            this.cmbStatushopdong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbStatushopdong.Name = "cmbStatushopdong";
-            this.cmbStatushopdong.Size = new System.Drawing.Size(218, 21);
+            this.cmbStatushopdong.Size = new System.Drawing.Size(289, 24);
             this.cmbStatushopdong.TabIndex = 73;
             // 
             // txtTenB
             // 
             this.txtTenB.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTenB.Location = new System.Drawing.Point(148, 49);
+            this.txtTenB.Location = new System.Drawing.Point(197, 60);
+            this.txtTenB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenB.Name = "txtTenB";
-            this.txtTenB.Size = new System.Drawing.Size(218, 23);
+            this.txtTenB.Size = new System.Drawing.Size(289, 27);
             this.txtTenB.TabIndex = 71;
             // 
             // txtNgaytochuc
             // 
             this.txtNgaytochuc.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgaytochuc.Location = new System.Drawing.Point(148, 78);
+            this.txtNgaytochuc.Location = new System.Drawing.Point(197, 96);
+            this.txtNgaytochuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNgaytochuc.Name = "txtNgaytochuc";
-            this.txtNgaytochuc.Size = new System.Drawing.Size(218, 23);
+            this.txtNgaytochuc.Size = new System.Drawing.Size(289, 27);
             this.txtNgaytochuc.TabIndex = 69;
             // 
             // txtTenA
             // 
             this.txtTenA.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTenA.Location = new System.Drawing.Point(148, 20);
+            this.txtTenA.Location = new System.Drawing.Point(197, 25);
+            this.txtTenA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenA.Name = "txtTenA";
-            this.txtTenA.Size = new System.Drawing.Size(218, 23);
+            this.txtTenA.Size = new System.Drawing.Size(289, 27);
             this.txtTenA.TabIndex = 67;
             // 
             // dgvHopdong
@@ -105,9 +111,11 @@
             this.dgvHopdong.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgvHopdong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHopdong.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvHopdong.Location = new System.Drawing.Point(10, 275);
+            this.dgvHopdong.Location = new System.Drawing.Point(13, 338);
+            this.dgvHopdong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvHopdong.Name = "dgvHopdong";
-            this.dgvHopdong.Size = new System.Drawing.Size(951, 270);
+            this.dgvHopdong.RowHeadersWidth = 51;
+            this.dgvHopdong.Size = new System.Drawing.Size(1268, 332);
             this.dgvHopdong.TabIndex = 64;
             // 
             // label1
@@ -116,9 +124,10 @@
             this.label1.ForeColor = System.Drawing.Color.Crimson;
             this.label1.Image = global::QLTCBasic.Properties.Resources._33;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label1.Location = new System.Drawing.Point(11, 134);
+            this.label1.Location = new System.Drawing.Point(15, 165);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 22);
+            this.label1.Size = new System.Drawing.Size(175, 27);
             this.label1.TabIndex = 81;
             this.label1.Text = "Mã hợp đồng";
             // 
@@ -128,9 +137,10 @@
             this.btnDelhopdong.ForeColor = System.Drawing.Color.Crimson;
             this.btnDelhopdong.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnDelhopdong.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnDelhopdong.Location = new System.Drawing.Point(808, 77);
+            this.btnDelhopdong.Location = new System.Drawing.Point(1077, 95);
+            this.btnDelhopdong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDelhopdong.Name = "btnDelhopdong";
-            this.btnDelhopdong.Size = new System.Drawing.Size(153, 81);
+            this.btnDelhopdong.Size = new System.Drawing.Size(204, 100);
             this.btnDelhopdong.TabIndex = 80;
             this.btnDelhopdong.Text = "Xóa hợp đồng";
             this.btnDelhopdong.UseVisualStyleBackColor = true;
@@ -142,9 +152,10 @@
             this.btnEdithopdong.ForeColor = System.Drawing.Color.Crimson;
             this.btnEdithopdong.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnEdithopdong.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnEdithopdong.Location = new System.Drawing.Point(610, 78);
+            this.btnEdithopdong.Location = new System.Drawing.Point(813, 96);
+            this.btnEdithopdong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEdithopdong.Name = "btnEdithopdong";
-            this.btnEdithopdong.Size = new System.Drawing.Size(153, 81);
+            this.btnEdithopdong.Size = new System.Drawing.Size(204, 100);
             this.btnEdithopdong.TabIndex = 79;
             this.btnEdithopdong.Text = "Sửa hợp đồng";
             this.btnEdithopdong.UseVisualStyleBackColor = true;
@@ -156,9 +167,10 @@
             this.btnAddhopdong.ForeColor = System.Drawing.Color.Crimson;
             this.btnAddhopdong.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnAddhopdong.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnAddhopdong.Location = new System.Drawing.Point(412, 78);
+            this.btnAddhopdong.Location = new System.Drawing.Point(549, 96);
+            this.btnAddhopdong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddhopdong.Name = "btnAddhopdong";
-            this.btnAddhopdong.Size = new System.Drawing.Size(153, 81);
+            this.btnAddhopdong.Size = new System.Drawing.Size(204, 100);
             this.btnAddhopdong.TabIndex = 78;
             this.btnAddhopdong.Text = "Thêm hợp đồng";
             this.btnAddhopdong.UseVisualStyleBackColor = true;
@@ -170,9 +182,10 @@
             this.label8.ForeColor = System.Drawing.Color.Crimson;
             this.label8.Image = global::QLTCBasic.Properties.Resources._33;
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label8.Location = new System.Drawing.Point(11, 105);
+            this.label8.Location = new System.Drawing.Point(15, 129);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(131, 22);
+            this.label8.Size = new System.Drawing.Size(175, 27);
             this.label8.TabIndex = 76;
             this.label8.Text = "Ngày lập hợp đồng";
             // 
@@ -182,9 +195,10 @@
             this.label5.ForeColor = System.Drawing.Color.Crimson;
             this.label5.Image = global::QLTCBasic.Properties.Resources._33;
             this.label5.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label5.Location = new System.Drawing.Point(11, 77);
+            this.label5.Location = new System.Drawing.Point(15, 95);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 22);
+            this.label5.Size = new System.Drawing.Size(175, 27);
             this.label5.TabIndex = 72;
             this.label5.Text = "Ngày tổ chức tiệc";
             // 
@@ -194,9 +208,10 @@
             this.label4.ForeColor = System.Drawing.Color.Crimson;
             this.label4.Image = global::QLTCBasic.Properties.Resources._33;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label4.Location = new System.Drawing.Point(11, 48);
+            this.label4.Location = new System.Drawing.Point(15, 59);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 22);
+            this.label4.Size = new System.Drawing.Size(175, 27);
             this.label4.TabIndex = 70;
             this.label4.Text = "Họ tên bên B";
             // 
@@ -206,9 +221,10 @@
             this.label3.ForeColor = System.Drawing.Color.Crimson;
             this.label3.Image = global::QLTCBasic.Properties.Resources._33;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label3.Location = new System.Drawing.Point(412, 19);
+            this.label3.Location = new System.Drawing.Point(549, 23);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 37);
+            this.label3.Size = new System.Drawing.Size(175, 46);
             this.label3.TabIndex = 68;
             this.label3.Text = "Tình trạng hợp đồng";
             // 
@@ -218,9 +234,10 @@
             this.label2.ForeColor = System.Drawing.Color.Crimson;
             this.label2.Image = global::QLTCBasic.Properties.Resources._33;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label2.Location = new System.Drawing.Point(11, 18);
+            this.label2.Location = new System.Drawing.Point(15, 22);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 22);
+            this.label2.Size = new System.Drawing.Size(175, 27);
             this.label2.TabIndex = 66;
             this.label2.Text = "Họ tên bên A";
             // 
@@ -230,9 +247,10 @@
             this.btnBack.ForeColor = System.Drawing.Color.Crimson;
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBack.Location = new System.Drawing.Point(800, 19);
+            this.btnBack.Location = new System.Drawing.Point(1067, 23);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(161, 37);
+            this.btnBack.Size = new System.Drawing.Size(215, 46);
             this.btnBack.TabIndex = 65;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -242,18 +260,20 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
             this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(974, 572);
+            this.pictureBox1.Size = new System.Drawing.Size(1299, 704);
             this.pictureBox1.TabIndex = 63;
             this.pictureBox1.TabStop = false;
             // 
             // txtChitiethopdong
             // 
             this.txtChitiethopdong.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtChitiethopdong.Location = new System.Drawing.Point(148, 165);
+            this.txtChitiethopdong.Location = new System.Drawing.Point(197, 203);
+            this.txtChitiethopdong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtChitiethopdong.Multiline = true;
             this.txtChitiethopdong.Name = "txtChitiethopdong";
-            this.txtChitiethopdong.Size = new System.Drawing.Size(813, 104);
+            this.txtChitiethopdong.Size = new System.Drawing.Size(1083, 127);
             this.txtChitiethopdong.TabIndex = 84;
             // 
             // label6
@@ -262,17 +282,18 @@
             this.label6.ForeColor = System.Drawing.Color.Crimson;
             this.label6.Image = global::QLTCBasic.Properties.Resources._33;
             this.label6.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label6.Location = new System.Drawing.Point(11, 166);
+            this.label6.Location = new System.Drawing.Point(15, 204);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 23);
+            this.label6.Size = new System.Drawing.Size(175, 28);
             this.label6.TabIndex = 83;
             this.label6.Text = "Chi tiết";
             // 
             // FormHopdong
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(969, 564);
+            this.ClientSize = new System.Drawing.Size(1292, 694);
             this.Controls.Add(this.txtChitiethopdong);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtMahopdong);
@@ -293,8 +314,10 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dgvHopdong);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormHopdong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý hợp đồng";
             ((System.ComponentModel.ISupportInitialize)(this.dgvHopdong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

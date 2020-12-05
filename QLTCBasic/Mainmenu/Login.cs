@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QLTCBasic.BUS;
 
 namespace QLTCBasic
 {
@@ -19,10 +20,7 @@ namespace QLTCBasic
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var main = new Main();
-            main.Closed += (s, args) => this.Close();
-            main.Show();
+            AccountBUS.Instance.Login(this, tbUsername, tbPassword);
         }
     }
 }

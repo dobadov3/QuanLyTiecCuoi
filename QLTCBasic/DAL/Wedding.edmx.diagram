@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8e74a0899faa4d8abf065bb6fca14177" Name="Diagram1">
+        <EntityTypeShape EntityType="QLTiecCuoiModel.Account" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.BAN" Width="1.5" PointX="3" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.BIENLAI" Width="1.5" PointX="1.5" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CA" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CHITIETBAN" Width="1.5" PointX="5.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CHITIETDV" Width="1.5" PointX="8.25" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CHITIETMONAN" Width="1.5" PointX="5.25" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CTBCBAOTRISANH" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CTBCDOANHTHUTHEOTHANG" Width="1.5" PointX="1.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CTBCNHAPKHO" Width="1.5" PointX="6" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CTBCTHUCHITHEONGAY" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.CTBCXUATKHO" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.DICHVU" Width="1.5" PointX="6" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.HOADON" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.HOPDONG" Width="1.5" PointX="8.25" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.MONAN" Width="1.5" PointX="3" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.SANH" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.TIECCUOI" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTiecCuoiModel.database_firewall_rules" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CHITIETBA__MaBan__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__HOADON__Mabienla__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__TIECCUOI__MaCa__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CHITIETBA__MaTie__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CHITIETDV__MaDV__08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CHITIETDV__MaTie__07C12930" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CHITIETMO__MaMon__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CHITIETMO__MaTie__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CTBCBAOTR__MaBCT__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CTBCBAOTR__MaSan__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CTBCTHUCH__MaBCD__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CTBCNHAPK__MaBCT__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CTBCNHAPK__MaSan__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CTBCXUATK__MaBCT__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__TIECCUOI__MaBCTh__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__CTBCXUATK__MaSan__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__TIECCUOI__MaHD__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__HOPDONG__MaKH__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__HOPDONG__MaTiec__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__TIECCUOI__MaKH__7D439ABD" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTiecCuoiModel.FK__TIECCUOI__MaSanh__7E37BEF6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
