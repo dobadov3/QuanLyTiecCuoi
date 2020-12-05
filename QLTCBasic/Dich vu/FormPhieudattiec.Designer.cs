@@ -64,7 +64,7 @@
             // 
             this.txtNgaytochuc.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtNgaytochuc.Location = new System.Drawing.Point(199, 191);
-            this.txtNgaytochuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNgaytochuc.Margin = new System.Windows.Forms.Padding(4);
             this.txtNgaytochuc.Name = "txtNgaytochuc";
             this.txtNgaytochuc.Size = new System.Drawing.Size(289, 27);
             this.txtNgaytochuc.TabIndex = 95;
@@ -73,7 +73,7 @@
             // 
             this.txtTencodau.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTencodau.Location = new System.Drawing.Point(199, 119);
-            this.txtTencodau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTencodau.Margin = new System.Windows.Forms.Padding(4);
             this.txtTencodau.Name = "txtTencodau";
             this.txtTencodau.Size = new System.Drawing.Size(289, 27);
             this.txtTencodau.TabIndex = 91;
@@ -82,7 +82,7 @@
             // 
             this.txtNgaydangky.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtNgaydangky.Location = new System.Drawing.Point(199, 155);
-            this.txtNgaydangky.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNgaydangky.Margin = new System.Windows.Forms.Padding(4);
             this.txtNgaydangky.Name = "txtNgaydangky";
             this.txtNgaydangky.Size = new System.Drawing.Size(289, 27);
             this.txtNgaydangky.TabIndex = 89;
@@ -91,7 +91,7 @@
             // 
             this.txtTenchure.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTenchure.Location = new System.Drawing.Point(199, 84);
-            this.txtTenchure.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenchure.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenchure.Name = "txtTenchure";
             this.txtTenchure.Size = new System.Drawing.Size(289, 27);
             this.txtTenchure.TabIndex = 87;
@@ -102,7 +102,7 @@
             this.dgvDondattiec.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDondattiec.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvDondattiec.Location = new System.Drawing.Point(13, 418);
-            this.dgvDondattiec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDondattiec.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDondattiec.Name = "dgvDondattiec";
             this.dgvDondattiec.RowHeadersWidth = 51;
             this.dgvDondattiec.Size = new System.Drawing.Size(1268, 250);
@@ -115,7 +115,7 @@
             this.btnXoadon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnXoadon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnXoadon.Location = new System.Drawing.Point(1067, 166);
-            this.btnXoadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoadon.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoadon.Name = "btnXoadon";
             this.btnXoadon.Size = new System.Drawing.Size(204, 100);
             this.btnXoadon.TabIndex = 98;
@@ -130,7 +130,7 @@
             this.btnSuadon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnSuadon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnSuadon.Location = new System.Drawing.Point(807, 166);
-            this.btnSuadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSuadon.Margin = new System.Windows.Forms.Padding(4);
             this.btnSuadon.Name = "btnSuadon";
             this.btnSuadon.Size = new System.Drawing.Size(212, 100);
             this.btnSuadon.TabIndex = 97;
@@ -145,7 +145,7 @@
             this.btnLapdon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnLapdon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnLapdon.Location = new System.Drawing.Point(549, 166);
-            this.btnLapdon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLapdon.Margin = new System.Windows.Forms.Padding(4);
             this.btnLapdon.Name = "btnLapdon";
             this.btnLapdon.Size = new System.Drawing.Size(211, 100);
             this.btnLapdon.TabIndex = 96;
@@ -212,7 +212,7 @@
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnBack.Location = new System.Drawing.Point(1067, 48);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(204, 34);
             this.btnBack.TabIndex = 85;
@@ -224,7 +224,7 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
             this.pictureBox1.Location = new System.Drawing.Point(-1, -4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1299, 704);
             this.pictureBox1.TabIndex = 83;
@@ -247,7 +247,7 @@
             // 
             this.txtMadon.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtMadon.Location = new System.Drawing.Point(199, 48);
-            this.txtMadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMadon.Margin = new System.Windows.Forms.Padding(4);
             this.txtMadon.Name = "txtMadon";
             this.txtMadon.Size = new System.Drawing.Size(289, 27);
             this.txtMadon.TabIndex = 103;
@@ -269,7 +269,7 @@
             // 
             this.txtNgaydatcoc.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtNgaydatcoc.Location = new System.Drawing.Point(728, 90);
-            this.txtNgaydatcoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNgaydatcoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtNgaydatcoc.Name = "txtNgaydatcoc";
             this.txtNgaydatcoc.Size = new System.Drawing.Size(289, 27);
             this.txtNgaydatcoc.TabIndex = 105;
@@ -292,7 +292,7 @@
             this.cmbTinhtrangtieccuoi.FormattingEnabled = true;
             this.cmbTinhtrangtieccuoi.ItemHeight = 16;
             this.cmbTinhtrangtieccuoi.Location = new System.Drawing.Point(728, 48);
-            this.cmbTinhtrangtieccuoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbTinhtrangtieccuoi.Margin = new System.Windows.Forms.Padding(4);
             this.cmbTinhtrangtieccuoi.Name = "cmbTinhtrangtieccuoi";
             this.cmbTinhtrangtieccuoi.Size = new System.Drawing.Size(289, 24);
             this.cmbTinhtrangtieccuoi.TabIndex = 107;
@@ -301,7 +301,7 @@
             // 
             this.txtTiendatcoc.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTiendatcoc.Location = new System.Drawing.Point(728, 126);
-            this.txtTiendatcoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTiendatcoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtTiendatcoc.Name = "txtTiendatcoc";
             this.txtTiendatcoc.Size = new System.Drawing.Size(289, 27);
             this.txtTiendatcoc.TabIndex = 109;
@@ -336,7 +336,7 @@
             // 
             this.cmbSanh.FormattingEnabled = true;
             this.cmbSanh.Location = new System.Drawing.Point(199, 257);
-            this.cmbSanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbSanh.Margin = new System.Windows.Forms.Padding(4);
             this.cmbSanh.Name = "cmbSanh";
             this.cmbSanh.Size = new System.Drawing.Size(289, 24);
             this.cmbSanh.TabIndex = 111;
@@ -358,7 +358,7 @@
             // 
             this.txtChitiet.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtChitiet.Location = new System.Drawing.Point(199, 290);
-            this.txtChitiet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtChitiet.Margin = new System.Windows.Forms.Padding(4);
             this.txtChitiet.Multiline = true;
             this.txtChitiet.Name = "txtChitiet";
             this.txtChitiet.Size = new System.Drawing.Size(1071, 120);
@@ -368,7 +368,7 @@
             // 
             this.cmbCa.FormattingEnabled = true;
             this.cmbCa.Location = new System.Drawing.Point(199, 226);
-            this.cmbCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbCa.Margin = new System.Windows.Forms.Padding(4);
             this.cmbCa.Name = "cmbCa";
             this.cmbCa.Size = new System.Drawing.Size(289, 24);
             this.cmbCa.TabIndex = 106;
@@ -419,11 +419,11 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dgvDondattiec);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FormPhieudattiec";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormPhieudattiec";
+            this.Text = "Phiếu đặt tiệc";
             ((System.ComponentModel.ISupportInitialize)(this.dgvDondattiec)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

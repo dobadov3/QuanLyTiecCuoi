@@ -29,9 +29,6 @@ namespace QLTCBasic
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var main = new FormLap();
-            main.Closed += (s, args) => this.Close();
-            main.Show();
         }
 
         private void btnSuadon_Click(object sender, EventArgs e)

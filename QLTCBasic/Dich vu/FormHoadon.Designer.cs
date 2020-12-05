@@ -86,7 +86,7 @@
             // 
             this.txtChitiet.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtChitiet.Location = new System.Drawing.Point(200, 294);
-            this.txtChitiet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtChitiet.Margin = new System.Windows.Forms.Padding(4);
             this.txtChitiet.Multiline = true;
             this.txtChitiet.Name = "txtChitiet";
             this.txtChitiet.Size = new System.Drawing.Size(1071, 120);
@@ -96,7 +96,7 @@
             // 
             this.cmbSanh.FormattingEnabled = true;
             this.cmbSanh.Location = new System.Drawing.Point(200, 261);
-            this.cmbSanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbSanh.Margin = new System.Windows.Forms.Padding(4);
             this.cmbSanh.Name = "cmbSanh";
             this.cmbSanh.Size = new System.Drawing.Size(289, 24);
             this.cmbSanh.TabIndex = 139;
@@ -118,7 +118,7 @@
             // 
             this.txtDongiaban.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtDongiaban.Location = new System.Drawing.Point(729, 129);
-            this.txtDongiaban.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDongiaban.Margin = new System.Windows.Forms.Padding(4);
             this.txtDongiaban.Name = "txtDongiaban";
             this.txtDongiaban.Size = new System.Drawing.Size(289, 27);
             this.txtDongiaban.TabIndex = 137;
@@ -140,7 +140,7 @@
             // 
             this.cmbCa.FormattingEnabled = true;
             this.cmbCa.Location = new System.Drawing.Point(200, 230);
-            this.cmbCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbCa.Margin = new System.Windows.Forms.Padding(4);
             this.cmbCa.Name = "cmbCa";
             this.cmbCa.Size = new System.Drawing.Size(289, 24);
             this.cmbCa.TabIndex = 134;
@@ -149,7 +149,7 @@
             // 
             this.txtNgaythanhtoan.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtNgaythanhtoan.Location = new System.Drawing.Point(729, 94);
-            this.txtNgaythanhtoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNgaythanhtoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtNgaythanhtoan.Name = "txtNgaythanhtoan";
             this.txtNgaythanhtoan.Size = new System.Drawing.Size(289, 27);
             this.txtNgaythanhtoan.TabIndex = 133;
@@ -171,7 +171,7 @@
             // 
             this.txtMahoadon.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtMahoadon.Location = new System.Drawing.Point(200, 52);
-            this.txtMahoadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMahoadon.Margin = new System.Windows.Forms.Padding(4);
             this.txtMahoadon.Name = "txtMahoadon";
             this.txtMahoadon.Size = new System.Drawing.Size(289, 27);
             this.txtMahoadon.TabIndex = 131;
@@ -222,7 +222,7 @@
             this.btnXoadon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnXoadon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnXoadon.Location = new System.Drawing.Point(1068, 170);
-            this.btnXoadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoadon.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoadon.Name = "btnXoadon";
             this.btnXoadon.Size = new System.Drawing.Size(204, 100);
             this.btnXoadon.TabIndex = 127;
@@ -237,7 +237,7 @@
             this.btnSuadon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnSuadon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnSuadon.Location = new System.Drawing.Point(808, 170);
-            this.btnSuadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSuadon.Margin = new System.Windows.Forms.Padding(4);
             this.btnSuadon.Name = "btnSuadon";
             this.btnSuadon.Size = new System.Drawing.Size(212, 100);
             this.btnSuadon.TabIndex = 126;
@@ -252,7 +252,7 @@
             this.btnLapdon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnLapdon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnLapdon.Location = new System.Drawing.Point(551, 170);
-            this.btnLapdon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLapdon.Margin = new System.Windows.Forms.Padding(4);
             this.btnLapdon.Name = "btnLapdon";
             this.btnLapdon.Size = new System.Drawing.Size(211, 100);
             this.btnLapdon.TabIndex = 125;
@@ -264,7 +264,7 @@
             // 
             this.txtNgaytochuc.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtNgaytochuc.Location = new System.Drawing.Point(200, 194);
-            this.txtNgaytochuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNgaytochuc.Margin = new System.Windows.Forms.Padding(4);
             this.txtNgaytochuc.Name = "txtNgaytochuc";
             this.txtNgaytochuc.Size = new System.Drawing.Size(289, 27);
             this.txtNgaytochuc.TabIndex = 124;
@@ -286,7 +286,7 @@
             // 
             this.txtTencodau.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTencodau.Location = new System.Drawing.Point(200, 123);
-            this.txtTencodau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTencodau.Margin = new System.Windows.Forms.Padding(4);
             this.txtTencodau.Name = "txtTencodau";
             this.txtTencodau.Size = new System.Drawing.Size(289, 27);
             this.txtTencodau.TabIndex = 122;
@@ -321,7 +321,7 @@
             // 
             this.txtTenchure.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTenchure.Location = new System.Drawing.Point(200, 87);
-            this.txtTenchure.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenchure.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenchure.Name = "txtTenchure";
             this.txtTenchure.Size = new System.Drawing.Size(289, 27);
             this.txtTenchure.TabIndex = 118;
@@ -346,7 +346,7 @@
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnBack.Location = new System.Drawing.Point(1068, 52);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(204, 34);
             this.btnBack.TabIndex = 116;
@@ -358,7 +358,7 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1299, 704);
             this.pictureBox1.TabIndex = 114;
@@ -369,7 +369,7 @@
             this.cmbHoadonlanthu.FormattingEnabled = true;
             this.cmbHoadonlanthu.ItemHeight = 16;
             this.cmbHoadonlanthu.Location = new System.Drawing.Point(200, 156);
-            this.cmbHoadonlanthu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbHoadonlanthu.Margin = new System.Windows.Forms.Padding(4);
             this.cmbHoadonlanthu.Name = "cmbHoadonlanthu";
             this.cmbHoadonlanthu.Size = new System.Drawing.Size(289, 24);
             this.cmbHoadonlanthu.TabIndex = 142;
@@ -378,7 +378,7 @@
             // 
             this.txtSoluongban.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtSoluongban.Location = new System.Drawing.Point(729, 58);
-            this.txtSoluongban.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoluongban.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoluongban.Name = "txtSoluongban";
             this.txtSoluongban.Size = new System.Drawing.Size(289, 27);
             this.txtSoluongban.TabIndex = 143;
@@ -400,7 +400,7 @@
             // 
             this.txtTiendatcoc.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTiendatcoc.Location = new System.Drawing.Point(200, 422);
-            this.txtTiendatcoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTiendatcoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtTiendatcoc.Name = "txtTiendatcoc";
             this.txtTiendatcoc.Size = new System.Drawing.Size(289, 27);
             this.txtTiendatcoc.TabIndex = 144;
@@ -422,7 +422,7 @@
             // 
             this.txtThanhtiendichvu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtThanhtiendichvu.Location = new System.Drawing.Point(200, 458);
-            this.txtThanhtiendichvu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtThanhtiendichvu.Margin = new System.Windows.Forms.Padding(4);
             this.txtThanhtiendichvu.Name = "txtThanhtiendichvu";
             this.txtThanhtiendichvu.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtiendichvu.TabIndex = 146;
@@ -444,7 +444,7 @@
             // 
             this.txtThanhtienphaitra.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtThanhtienphaitra.Location = new System.Drawing.Point(729, 422);
-            this.txtThanhtienphaitra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtThanhtienphaitra.Margin = new System.Windows.Forms.Padding(4);
             this.txtThanhtienphaitra.Name = "txtThanhtienphaitra";
             this.txtThanhtienphaitra.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtienphaitra.TabIndex = 148;
@@ -466,7 +466,7 @@
             // 
             this.txtThanhtiendatra.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtThanhtiendatra.Location = new System.Drawing.Point(729, 458);
-            this.txtThanhtiendatra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtThanhtiendatra.Margin = new System.Windows.Forms.Padding(4);
             this.txtThanhtiendatra.Name = "txtThanhtiendatra";
             this.txtThanhtiendatra.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtiendatra.TabIndex = 150;
@@ -488,7 +488,7 @@
             // 
             this.txtThanhtienconlai.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtThanhtienconlai.Location = new System.Drawing.Point(200, 494);
-            this.txtThanhtienconlai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtThanhtienconlai.Margin = new System.Windows.Forms.Padding(4);
             this.txtThanhtienconlai.Name = "txtThanhtienconlai";
             this.txtThanhtienconlai.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtienconlai.TabIndex = 152;
@@ -500,7 +500,7 @@
             this.btnTracuu.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnTracuu.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnTracuu.Location = new System.Drawing.Point(1068, 421);
-            this.btnTracuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTracuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnTracuu.Name = "btnTracuu";
             this.btnTracuu.Size = new System.Drawing.Size(204, 100);
             this.btnTracuu.TabIndex = 154;
@@ -551,11 +551,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FormHoadon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormHoadon";
+            this.Text = "Hóa đơn";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
