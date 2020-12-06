@@ -21,9 +21,6 @@ namespace QLTCBasic
         {
 
             this.Hide();
-            var main = new FormBaocaothuchingay();
-            main.Closed += (s, args) => this.Close();
-            main.Show();
         }
 
         private void btnTimkiem_Click(object sender, EventArgs e)

@@ -36,8 +36,8 @@ namespace QLTCBasic
         {
             this.Hide();
             var main = new FormPhieudattiec();
-            main.Closed += (s, args) => this.Close();
-            main.Show();
+            main.ShowDialog();
+            this.Show();
         }
     }
 }

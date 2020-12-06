@@ -64,8 +64,8 @@ namespace QLTCBasic
         {
             this.Hide();
             var ctban = new FormChitietBan();
-            ctban.Closed += (s, args) => this.Close();
-            ctban.Show();
+            ctban.ShowDialog();
+            this.Show();
         }
     }
 }

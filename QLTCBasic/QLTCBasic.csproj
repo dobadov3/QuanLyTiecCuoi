@@ -62,8 +62,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Baocao\FormCTBCThuchi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baocao\FormCTBCThuchi.Designer.cs">
+      <DependentUpon>FormCTBCThuchi.cs</DependentUpon>
+    </Compile>
     <Compile Include="BUS\AccountBUS.cs" />
     <Compile Include="BUS\KhachHangBUS.cs" />
+    <Compile Include="BUS\SanhBUS.cs" />
     <Compile Include="DAL\Account.cs">
       <DependentUpon>Wedding.tt</DependentUpon>
     </Compile>
@@ -141,6 +148,25 @@
     </Compile>
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\KhachHangDAO.cs" />
+    <Compile Include="DAO\SanhDAO.cs" />
+    <Compile Include="Dich vu\FormChitietBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dich vu\FormChitietBan.Designer.cs">
+      <DependentUpon>FormChitietBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dich vu\FormChitietDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dich vu\FormChitietDV.Designer.cs">
+      <DependentUpon>FormChitietDV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dich vu\FormChitietMonan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dich vu\FormChitietMonan.Designer.cs">
+      <DependentUpon>FormChitietMonan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dich vu\FormHoadon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -251,6 +277,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Baocao\FormCTBCThuchi.resx">
+      <DependentUpon>FormCTBCThuchi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dich vu\FormChitietBan.resx">
+      <DependentUpon>FormChitietBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dich vu\FormChitietDV.resx">
+      <DependentUpon>FormChitietDV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dich vu\FormChitietMonan.resx">
+      <DependentUpon>FormChitietMonan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dich vu\FormHoadon.resx">
       <DependentUpon>FormHoadon.cs</DependentUpon>
     </EmbeddedResource>
