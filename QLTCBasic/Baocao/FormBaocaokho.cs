@@ -20,22 +20,25 @@ namespace QLTCBasic
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
+            var main = new Main();
+            main.Closed += (s, args) => this.Close();
+            main.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
             var formBaocaonhapkho = new FormBaocaonhapkho();
-            formBaocaonhapkho.ShowDialog();
-            this.Show();
+            formBaocaonhapkho.Closed += (s, args) => this.Close();
+            formBaocaonhapkho.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             var formBaocaoxuatkho = new FormBaocaoxuatkho();
-            formBaocaoxuatkho.ShowDialog();
-            this.Show();
+            formBaocaoxuatkho.Closed += (s, args) => this.Close();
+            formBaocaoxuatkho.Show();
         }
     }
 }

@@ -41,10 +41,9 @@
             this.button1.ForeColor = System.Drawing.Color.Crimson;
             this.button1.Image = global::QLTCBasic.Properties.Resources._33;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button1.Location = new System.Drawing.Point(693, 295);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(520, 240);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(265, 116);
+            this.button1.Size = new System.Drawing.Size(199, 94);
             this.button1.TabIndex = 21;
             this.button1.Text = "Báo cáo doanh thu hàng tháng";
             this.button1.UseVisualStyleBackColor = true;
@@ -56,10 +55,9 @@
             this.button4.ForeColor = System.Drawing.Color.Crimson;
             this.button4.Image = global::QLTCBasic.Properties.Resources._33;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button4.Location = new System.Drawing.Point(371, 295);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(278, 240);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(265, 116);
+            this.button4.Size = new System.Drawing.Size(199, 94);
             this.button4.TabIndex = 20;
             this.button4.Text = "Báo cáo thu chi trong ngày";
             this.button4.UseVisualStyleBackColor = true;
@@ -71,10 +69,9 @@
             this.btnBack.ForeColor = System.Drawing.Color.Crimson;
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBack.Location = new System.Drawing.Point(1117, 25);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Location = new System.Drawing.Point(825, 12);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(180, 46);
+            this.btnBack.Size = new System.Drawing.Size(135, 37);
             this.btnBack.TabIndex = 18;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -84,25 +81,22 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
             this.pictureBox1.Location = new System.Drawing.Point(-1, -2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1299, 697);
+            this.pictureBox1.Size = new System.Drawing.Size(974, 566);
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
             // FormBaocaotaichinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1296, 693);
+            this.ClientSize = new System.Drawing.Size(972, 563);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormBaocaotaichinh";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo cáo tài chính";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

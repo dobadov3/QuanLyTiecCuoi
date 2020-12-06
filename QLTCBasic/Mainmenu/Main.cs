@@ -21,54 +21,49 @@ namespace QLTCBasic
         {
             this.Hide();
             var sanh = new Formsanh();
-            sanh.ShowDialog();
-            this.Show();
-        }
-
-        private void btnTracuu_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var tracuu = new Formtracuu();
-            tracuu.ShowDialog();
-            this.Show();
+            sanh.Closed += (s, args) => this.Close();
+            sanh.Show();
         }
 
         private void btnKhachhang_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Formkhachhang khach = new Formkhachhang();
-            khach.ShowDialog();
-            this.Show();
+            var khach = new Formkhachhang();
+            khach.Closed += (s, args) => this.Close();
+            khach.Show();
         }
 
         private void btnTaichinh_Click(object sender, EventArgs e)
         {
             this.Hide();
             var lap = new FormLap();
-            lap.ShowDialog();
-            this.Show();
+            lap.Closed += (s, args) => this.Close();
+            lap.Show();
         }
 
         private void btnHopdong_Click(object sender, EventArgs e)
         {
             this.Hide();
             var hopdong = new FormHopdong();
-            hopdong.ShowDialog();
-            this.Show();
+            hopdong.Closed += (s, args) => this.Close();
+            hopdong.Show();
         }
 
         private void btnBaocao_Click(object sender, EventArgs e)
         {
             this.Hide();
             var baocao = new Formbaocao();
-            baocao.ShowDialog();
-            this.Show();
+            baocao.Closed += (s, args) => this.Close();
+            baocao.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            MessageBox.Show("Đăng xuất thành công");
+            MessageBox.Show("Đăng xuất thành công!");
             this.Hide();
+            var login = new Login();
+            login.Closed += (s, args) => this.Close();
+            login.Show();
         }
     }
 }

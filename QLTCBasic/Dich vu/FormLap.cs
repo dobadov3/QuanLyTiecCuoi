@@ -21,21 +21,24 @@ namespace QLTCBasic
         {
             this.Hide();
             var formPhieudattiec = new FormPhieudattiec();
-            formPhieudattiec.ShowDialog();
-            this.Show();
+            formPhieudattiec.Closed += (s, args) => this.Close();
+            formPhieudattiec.Show();
         }
 
         private void btnXuathoadon_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var fHoaDon = new FormHoadon();
-            fHoaDon.ShowDialog();
-            this.Show();
+            var formHoadon = new FormHoadon();
+            formHoadon.Closed += (s, args) => this.Close();
+            formHoadon.Show();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
+            var main = new Main();
+            main.Closed += (s, args) => this.Close();
+            main.Show();
         }
     }
 }

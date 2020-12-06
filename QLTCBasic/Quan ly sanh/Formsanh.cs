@@ -20,14 +20,9 @@ namespace QLTCBasic
         private void btnBack_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-        }
-
-        private void btnYCSanh_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var formBaocaobaotri = new FormBaocaobaotri();
-            formBaocaobaotri.ShowDialog();
-            this.Show();
+            var main = new Main();
+            main.Closed += (s, args) => this.Close();
+            main.Show();
         }
 
         private void btnAddsanh_Click(object sender, EventArgs e)

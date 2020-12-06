@@ -29,6 +29,9 @@ namespace QLTCBasic
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
+            var main = new FormLap();
+            main.Closed += (s, args) => this.Close();
+            main.Show();
         }
 
         private void btnSuadon_Click(object sender, EventArgs e)
@@ -39,6 +42,30 @@ namespace QLTCBasic
         private void btnXoadon_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Xóa thành công!");
+        }
+
+        private void btnCTDV_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var ctdichvu = new FormChitietDV();
+            ctdichvu.Closed += (s, args) => this.Close();
+            ctdichvu.Show();
+        }
+
+        private void btnCTMA_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var ctmonan = new FormChitietMonan();
+            ctmonan.Closed += (s, args) => this.Close();
+            ctmonan.Show();
+        }
+
+        private void btnCTBAN_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var ctban = new FormChitietBan();
+            ctban.Closed += (s, args) => this.Close();
+            ctban.Show();
         }
     }
 }

@@ -28,136 +28,188 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtChitietbaocao = new System.Windows.Forms.TextBox();
-            this.txtNgayxuatkho = new System.Windows.Forms.TextBox();
-            this.txtNgaynhan = new System.Windows.Forms.TextBox();
-            this.txtMabaocao = new System.Windows.Forms.TextBox();
-            this.txtNgaybaocao = new System.Windows.Forms.TextBox();
+            this.btnTimkiem = new System.Windows.Forms.Button();
+            this.btnXoabaocao = new System.Windows.Forms.Button();
+            this.btnSuabaocao = new System.Windows.Forms.Button();
+            this.btnThembaocao = new System.Windows.Forms.Button();
             this.txtTennguoibaocao = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtMabaocaothuchi = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnGuibaocao = new System.Windows.Forms.Button();
+            this.dgvBaocaoxuatkho = new System.Windows.Forms.DataGridView();
+            this.txtTongchiphi = new System.Windows.Forms.TextBox();
+            this.txtNgayxuatkho = new System.Windows.Forms.TextBox();
+            this.txtMabaocao = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtNgaybaocao = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dgvBaocaoxuatkho = new System.Windows.Forms.DataGridView();
-            this.cmbSanh = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBaocaoxuatkho)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtChitietbaocao
+            // btnTimkiem
             // 
-            this.txtChitietbaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtChitietbaocao.Location = new System.Drawing.Point(201, 144);
-            this.txtChitietbaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtChitietbaocao.Multiline = true;
-            this.txtChitietbaocao.Name = "txtChitietbaocao";
-            this.txtChitietbaocao.Size = new System.Drawing.Size(824, 134);
-            this.txtChitietbaocao.TabIndex = 136;
+            this.btnTimkiem.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnTimkiem.ForeColor = System.Drawing.Color.Crimson;
+            this.btnTimkiem.Image = global::QLTCBasic.Properties.Resources._33;
+            this.btnTimkiem.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.btnTimkiem.Location = new System.Drawing.Point(840, 82);
+            this.btnTimkiem.Name = "btnTimkiem";
+            this.btnTimkiem.Size = new System.Drawing.Size(153, 37);
+            this.btnTimkiem.TabIndex = 150;
+            this.btnTimkiem.Text = "Tìm kiếm";
+            this.btnTimkiem.UseVisualStyleBackColor = true;
+            this.btnTimkiem.Click += new System.EventHandler(this.btnTimkiem_Click);
             // 
-            // txtNgayxuatkho
+            // btnXoabaocao
             // 
-            this.txtNgayxuatkho.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgayxuatkho.Location = new System.Drawing.Point(736, 107);
-            this.txtNgayxuatkho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtNgayxuatkho.Name = "txtNgayxuatkho";
-            this.txtNgayxuatkho.Size = new System.Drawing.Size(289, 27);
-            this.txtNgayxuatkho.TabIndex = 134;
+            this.btnXoabaocao.Enabled = false;
+            this.btnXoabaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnXoabaocao.ForeColor = System.Drawing.Color.Crimson;
+            this.btnXoabaocao.Image = global::QLTCBasic.Properties.Resources._33;
+            this.btnXoabaocao.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.btnXoabaocao.Location = new System.Drawing.Point(681, 82);
+            this.btnXoabaocao.Name = "btnXoabaocao";
+            this.btnXoabaocao.Size = new System.Drawing.Size(87, 37);
+            this.btnXoabaocao.TabIndex = 149;
+            this.btnXoabaocao.Text = "Xóa";
+            this.btnXoabaocao.UseVisualStyleBackColor = true;
+            this.btnXoabaocao.Click += new System.EventHandler(this.btnXoabaocao_Click);
             // 
-            // txtNgaynhan
+            // btnSuabaocao
             // 
-            this.txtNgaynhan.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgaynhan.Location = new System.Drawing.Point(736, 71);
-            this.txtNgaynhan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtNgaynhan.Name = "txtNgaynhan";
-            this.txtNgaynhan.Size = new System.Drawing.Size(289, 27);
-            this.txtNgaynhan.TabIndex = 133;
+            this.btnSuabaocao.Enabled = false;
+            this.btnSuabaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnSuabaocao.ForeColor = System.Drawing.Color.Crimson;
+            this.btnSuabaocao.Image = global::QLTCBasic.Properties.Resources._33;
+            this.btnSuabaocao.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.btnSuabaocao.Location = new System.Drawing.Point(550, 82);
+            this.btnSuabaocao.Name = "btnSuabaocao";
+            this.btnSuabaocao.Size = new System.Drawing.Size(95, 37);
+            this.btnSuabaocao.TabIndex = 148;
+            this.btnSuabaocao.Text = "Sửa";
+            this.btnSuabaocao.UseVisualStyleBackColor = true;
+            this.btnSuabaocao.Click += new System.EventHandler(this.btnSuabaocao_Click);
             // 
-            // txtMabaocao
+            // btnThembaocao
             // 
-            this.txtMabaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtMabaocao.Location = new System.Drawing.Point(201, 108);
-            this.txtMabaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtMabaocao.Name = "txtMabaocao";
-            this.txtMabaocao.Size = new System.Drawing.Size(289, 27);
-            this.txtMabaocao.TabIndex = 131;
-            // 
-            // txtNgaybaocao
-            // 
-            this.txtNgaybaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgaybaocao.Location = new System.Drawing.Point(201, 73);
-            this.txtNgaybaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtNgaybaocao.Name = "txtNgaybaocao";
-            this.txtNgaybaocao.Size = new System.Drawing.Size(289, 27);
-            this.txtNgaybaocao.TabIndex = 127;
+            this.btnThembaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnThembaocao.ForeColor = System.Drawing.Color.Crimson;
+            this.btnThembaocao.Image = global::QLTCBasic.Properties.Resources._33;
+            this.btnThembaocao.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.btnThembaocao.Location = new System.Drawing.Point(416, 82);
+            this.btnThembaocao.Name = "btnThembaocao";
+            this.btnThembaocao.Size = new System.Drawing.Size(99, 37);
+            this.btnThembaocao.TabIndex = 147;
+            this.btnThembaocao.Text = "Thêm";
+            this.btnThembaocao.UseVisualStyleBackColor = true;
+            this.btnThembaocao.Click += new System.EventHandler(this.btnThembaocao_Click);
             // 
             // txtTennguoibaocao
             // 
             this.txtTennguoibaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTennguoibaocao.Location = new System.Drawing.Point(201, 37);
-            this.txtTennguoibaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTennguoibaocao.Location = new System.Drawing.Point(165, 69);
             this.txtTennguoibaocao.Name = "txtTennguoibaocao";
-            this.txtTennguoibaocao.Size = new System.Drawing.Size(289, 27);
-            this.txtTennguoibaocao.TabIndex = 124;
+            this.txtTennguoibaocao.Size = new System.Drawing.Size(202, 23);
+            this.txtTennguoibaocao.TabIndex = 146;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.Crimson;
+            this.label2.Image = global::QLTCBasic.Properties.Resources._33;
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label2.Location = new System.Drawing.Point(12, 69);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(148, 22);
+            this.label2.TabIndex = 145;
+            this.label2.Text = "Tên người báo cáo";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtMabaocaothuchi
+            // 
+            this.txtMabaocaothuchi.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtMabaocaothuchi.Location = new System.Drawing.Point(165, 98);
+            this.txtMabaocaothuchi.Name = "txtMabaocaothuchi";
+            this.txtMabaocaothuchi.Size = new System.Drawing.Size(202, 23);
+            this.txtMabaocaothuchi.TabIndex = 144;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Crimson;
             this.label1.Image = global::QLTCBasic.Properties.Resources._33;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label1.Location = new System.Drawing.Point(19, 145);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 97);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(175, 27);
-            this.label1.TabIndex = 135;
-            this.label1.Text = "Chi tiết";
+            this.label1.Size = new System.Drawing.Size(147, 22);
+            this.label1.TabIndex = 143;
+            this.label1.Text = "Mã báo cáo thu chi";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // btnGuibaocao
+            // dgvBaocaoxuatkho
             // 
-            this.btnGuibaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnGuibaocao.ForeColor = System.Drawing.Color.Crimson;
-            this.btnGuibaocao.Image = global::QLTCBasic.Properties.Resources._33;
-            this.btnGuibaocao.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnGuibaocao.Location = new System.Drawing.Point(1052, 89);
-            this.btnGuibaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnGuibaocao.Name = "btnGuibaocao";
-            this.btnGuibaocao.Size = new System.Drawing.Size(204, 103);
-            this.btnGuibaocao.TabIndex = 132;
-            this.btnGuibaocao.Text = "Gửi báo cáo";
-            this.btnGuibaocao.UseVisualStyleBackColor = true;
-            this.btnGuibaocao.Click += new System.EventHandler(this.btnGuibaocao_Click);
+            this.dgvBaocaoxuatkho.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dgvBaocaoxuatkho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBaocaoxuatkho.GridColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvBaocaoxuatkho.Location = new System.Drawing.Point(11, 127);
+            this.dgvBaocaoxuatkho.Name = "dgvBaocaoxuatkho";
+            this.dgvBaocaoxuatkho.Size = new System.Drawing.Size(982, 435);
+            this.dgvBaocaoxuatkho.TabIndex = 142;
+            // 
+            // txtTongchiphi
+            // 
+            this.txtTongchiphi.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtTongchiphi.Location = new System.Drawing.Point(550, 38);
+            this.txtTongchiphi.Name = "txtTongchiphi";
+            this.txtTongchiphi.Size = new System.Drawing.Size(218, 23);
+            this.txtTongchiphi.TabIndex = 140;
+            // 
+            // txtNgayxuatkho
+            // 
+            this.txtNgayxuatkho.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtNgayxuatkho.Location = new System.Drawing.Point(550, 6);
+            this.txtNgayxuatkho.Name = "txtNgayxuatkho";
+            this.txtNgayxuatkho.Size = new System.Drawing.Size(218, 23);
+            this.txtNgayxuatkho.TabIndex = 139;
+            // 
+            // txtMabaocao
+            // 
+            this.txtMabaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtMabaocao.Location = new System.Drawing.Point(165, 8);
+            this.txtMabaocao.Name = "txtMabaocao";
+            this.txtMabaocao.Size = new System.Drawing.Size(202, 23);
+            this.txtMabaocao.TabIndex = 138;
             // 
             // label8
             // 
-            this.label8.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label8.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.Crimson;
             this.label8.Image = global::QLTCBasic.Properties.Resources._33;
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label8.Location = new System.Drawing.Point(19, 110);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(12, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(175, 27);
-            this.label8.TabIndex = 130;
-            this.label8.Text = "Mã báo cáo";
+            this.label8.Size = new System.Drawing.Size(147, 22);
+            this.label8.TabIndex = 137;
+            this.label8.Text = "Mã báo cáo xuất kho";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label7
             // 
-            this.label7.Font = new System.Drawing.Font("Verdana", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label7.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.Crimson;
             this.label7.Image = global::QLTCBasic.Properties.Resources._33;
             this.label7.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label7.Location = new System.Drawing.Point(553, 110);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(413, 38);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(175, 27);
-            this.label7.TabIndex = 129;
-            this.label7.Text = "Ngày xuất kho";
+            this.label7.Size = new System.Drawing.Size(131, 22);
+            this.label7.TabIndex = 136;
+            this.label7.Text = "Tổng chi phí xuất";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label6
             // 
@@ -165,12 +217,20 @@
             this.label6.ForeColor = System.Drawing.Color.Crimson;
             this.label6.Image = global::QLTCBasic.Properties.Resources._33;
             this.label6.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label6.Location = new System.Drawing.Point(553, 74);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(413, 7);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(175, 27);
-            this.label6.TabIndex = 128;
-            this.label6.Text = "Ngày nhận";
+            this.label6.Size = new System.Drawing.Size(131, 22);
+            this.label6.TabIndex = 135;
+            this.label6.Text = "Ngày xuất kho";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtNgaybaocao
+            // 
+            this.txtNgaybaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtNgaybaocao.Location = new System.Drawing.Point(165, 39);
+            this.txtNgaybaocao.Name = "txtNgaybaocao";
+            this.txtNgaybaocao.Size = new System.Drawing.Size(202, 23);
+            this.txtNgaybaocao.TabIndex = 134;
             // 
             // label4
             // 
@@ -178,38 +238,12 @@
             this.label4.ForeColor = System.Drawing.Color.Crimson;
             this.label4.Image = global::QLTCBasic.Properties.Resources._33;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label4.Location = new System.Drawing.Point(19, 71);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(12, 38);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(175, 27);
-            this.label4.TabIndex = 126;
+            this.label4.Size = new System.Drawing.Size(147, 22);
+            this.label4.TabIndex = 133;
             this.label4.Text = "Ngày báo cáo";
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.ForeColor = System.Drawing.Color.Crimson;
-            this.label3.Image = global::QLTCBasic.Properties.Resources._33;
-            this.label3.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label3.Location = new System.Drawing.Point(553, 42);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(175, 27);
-            this.label3.TabIndex = 125;
-            this.label3.Text = "Sảnh nhận";
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.ForeColor = System.Drawing.Color.Crimson;
-            this.label2.Image = global::QLTCBasic.Properties.Resources._33;
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label2.Location = new System.Drawing.Point(19, 34);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(175, 27);
-            this.label2.TabIndex = 123;
-            this.label2.Text = "Tên người báo cáo";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnBack
             // 
@@ -217,11 +251,10 @@
             this.btnBack.ForeColor = System.Drawing.Color.Crimson;
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBack.Location = new System.Drawing.Point(1052, 36);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Location = new System.Drawing.Point(840, 12);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(204, 46);
-            this.btnBack.TabIndex = 122;
+            this.btnBack.Size = new System.Drawing.Size(153, 37);
+            this.btnBack.TabIndex = 131;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
@@ -229,87 +262,66 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1300, 702);
-            this.pictureBox1.TabIndex = 121;
+            this.pictureBox1.Size = new System.Drawing.Size(1009, 583);
+            this.pictureBox1.TabIndex = 130;
             this.pictureBox1.TabStop = false;
-            // 
-            // dgvBaocaoxuatkho
-            // 
-            this.dgvBaocaoxuatkho.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dgvBaocaoxuatkho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBaocaoxuatkho.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvBaocaoxuatkho.Location = new System.Drawing.Point(13, 287);
-            this.dgvBaocaoxuatkho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dgvBaocaoxuatkho.Name = "dgvBaocaoxuatkho";
-            this.dgvBaocaoxuatkho.RowHeadersWidth = 51;
-            this.dgvBaocaoxuatkho.Size = new System.Drawing.Size(1268, 386);
-            this.dgvBaocaoxuatkho.TabIndex = 138;
-            // 
-            // cmbSanh
-            // 
-            this.cmbSanh.FormattingEnabled = true;
-            this.cmbSanh.Location = new System.Drawing.Point(736, 38);
-            this.cmbSanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cmbSanh.Name = "cmbSanh";
-            this.cmbSanh.Size = new System.Drawing.Size(289, 24);
-            this.cmbSanh.TabIndex = 139;
             // 
             // FormBaocaoxuatkho
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1297, 688);
-            this.Controls.Add(this.cmbSanh);
-            this.Controls.Add(this.dgvBaocaoxuatkho);
-            this.Controls.Add(this.txtChitietbaocao);
+            this.ClientSize = new System.Drawing.Size(1005, 574);
+            this.Controls.Add(this.btnTimkiem);
+            this.Controls.Add(this.btnXoabaocao);
+            this.Controls.Add(this.btnSuabaocao);
+            this.Controls.Add(this.btnThembaocao);
+            this.Controls.Add(this.txtTennguoibaocao);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtMabaocaothuchi);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.dgvBaocaoxuatkho);
+            this.Controls.Add(this.txtTongchiphi);
             this.Controls.Add(this.txtNgayxuatkho);
-            this.Controls.Add(this.txtNgaynhan);
-            this.Controls.Add(this.btnGuibaocao);
             this.Controls.Add(this.txtMabaocao);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtNgaybaocao);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtTennguoibaocao);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormBaocaoxuatkho";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo cáo xuất kho";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBaocaoxuatkho)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtChitietbaocao;
+
+        private System.Windows.Forms.Button btnTimkiem;
+        private System.Windows.Forms.Button btnXoabaocao;
+        private System.Windows.Forms.Button btnSuabaocao;
+        private System.Windows.Forms.Button btnThembaocao;
+        private System.Windows.Forms.TextBox txtTennguoibaocao;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtMabaocaothuchi;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dgvBaocaoxuatkho;
+        private System.Windows.Forms.TextBox txtTongchiphi;
         private System.Windows.Forms.TextBox txtNgayxuatkho;
-        private System.Windows.Forms.TextBox txtNgaynhan;
-        private System.Windows.Forms.Button btnGuibaocao;
         private System.Windows.Forms.TextBox txtMabaocao;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtNgaybaocao;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtTennguoibaocao;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridView dgvBaocaoxuatkho;
-        private System.Windows.Forms.ComboBox cmbSanh;
     }
 }

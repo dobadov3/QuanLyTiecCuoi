@@ -17,14 +17,32 @@ namespace QLTCBasic
             InitializeComponent();
         }
 
-        private void btnGuibaocao_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var main = new Formbaocao();
+            main.Closed += (s, args) => this.Close();
+            main.Show();
+        }
+
+        private void btnTimkiem_Click(object sender, EventArgs e)
+        {
+            this.Refresh();
+        }
+
+        private void btnThembaocao_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Báo cáo của bạn đã được gửi thành công!");
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        private void btnSuabaocao_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            MessageBox.Show("Báo cáo của bạn đã được sửa thành công!");
+        }
+
+        private void btnXoabaocao_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Báo cáo của bạn đã được xóa thành công!");
         }
     }
 }

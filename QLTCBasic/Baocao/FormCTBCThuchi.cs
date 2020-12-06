@@ -10,35 +10,25 @@ using System.Windows.Forms;
 
 namespace QLTCBasic
 {
-    public partial class FormHoadon : Form
+    public partial class FormCTBCThuchi : Form
     {
-        public FormHoadon()
+        public FormCTBCThuchi()
         {
             InitializeComponent();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+
             this.Hide();
-            var main = new Main();
+            var main = new FormBaocaothuchingay();
             main.Closed += (s, args) => this.Close();
             main.Show();
         }
 
-    
-
-
-        private void btnTracuu_Click(object sender, EventArgs e)
+        private void btnTimkiem_Click(object sender, EventArgs e)
         {
             this.Refresh();
-        }
-
-        private void btnThongtinTiec_Click_1(object sender, EventArgs e)
-        {
-            this.Hide();
-            var tieccuoi = new FormPhieudattiec();
-            tieccuoi.Closed += (s, args) => this.Close();
-            tieccuoi.Show();
         }
     }
 }
