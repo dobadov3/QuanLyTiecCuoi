@@ -20,9 +20,6 @@ namespace QLTCBasic
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var main = new Main();
-            main.Closed += (s, args) => this.Close();
-            main.Show();
         }
 
     
@@ -37,8 +34,8 @@ namespace QLTCBasic
         {
             this.Hide();
             var tieccuoi = new FormPhieudattiec();
-            tieccuoi.Closed += (s, args) => this.Close();
-            tieccuoi.Show();
+            tieccuoi.ShowDialog();
+            this.Show();
         }
     }
 }

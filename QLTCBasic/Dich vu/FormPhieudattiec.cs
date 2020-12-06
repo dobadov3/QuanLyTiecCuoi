@@ -29,9 +29,6 @@ namespace QLTCBasic
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var main = new FormLap();
-            main.Closed += (s, args) => this.Close();
-            main.Show();
         }
 
         private void btnSuadon_Click(object sender, EventArgs e)
@@ -48,24 +45,24 @@ namespace QLTCBasic
         {
             this.Hide();
             var ctdichvu = new FormChitietDV();
-            ctdichvu.Closed += (s, args) => this.Close();
-            ctdichvu.Show();
+            ctdichvu.ShowDialog();
+            this.Show();
         }
 
         private void btnCTMA_Click(object sender, EventArgs e)
         {
             this.Hide();
             var ctmonan = new FormChitietMonan();
-            ctmonan.Closed += (s, args) => this.Close();
-            ctmonan.Show();
+            ctmonan.ShowDialog();
+            this.Show();
         }
 
         private void btnCTBAN_Click(object sender, EventArgs e)
         {
             this.Hide();
             var ctban = new FormChitietBan();
-            ctban.Closed += (s, args) => this.Close();
-            ctban.Show();
+            ctban.ShowDialog();
+            this.Show();
         }
     }
 }

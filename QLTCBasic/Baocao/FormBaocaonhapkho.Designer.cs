@@ -54,33 +54,37 @@
             // txtNgaynhapkho
             // 
             this.txtNgaynhapkho.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgaynhapkho.Location = new System.Drawing.Point(536, 9);
+            this.txtNgaynhapkho.Location = new System.Drawing.Point(715, 11);
+            this.txtNgaynhapkho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNgaynhapkho.Name = "txtNgaynhapkho";
-            this.txtNgaynhapkho.Size = new System.Drawing.Size(218, 23);
+            this.txtNgaynhapkho.Size = new System.Drawing.Size(289, 27);
             this.txtNgaynhapkho.TabIndex = 114;
             // 
             // txtMabaocao
             // 
             this.txtMabaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtMabaocao.Location = new System.Drawing.Point(165, 9);
+            this.txtMabaocao.Location = new System.Drawing.Point(220, 11);
+            this.txtMabaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMabaocao.Name = "txtMabaocao";
-            this.txtMabaocao.Size = new System.Drawing.Size(202, 23);
+            this.txtMabaocao.Size = new System.Drawing.Size(268, 27);
             this.txtMabaocao.TabIndex = 112;
             // 
             // txtNgaybaocao
             // 
             this.txtNgaybaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtNgaybaocao.Location = new System.Drawing.Point(165, 38);
+            this.txtNgaybaocao.Location = new System.Drawing.Point(220, 47);
+            this.txtNgaybaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNgaybaocao.Name = "txtNgaybaocao";
-            this.txtNgaybaocao.Size = new System.Drawing.Size(202, 23);
+            this.txtNgaybaocao.Size = new System.Drawing.Size(268, 27);
             this.txtNgaybaocao.TabIndex = 106;
             // 
             // txtTongchiphi
             // 
             this.txtTongchiphi.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTongchiphi.Location = new System.Drawing.Point(536, 39);
+            this.txtTongchiphi.Location = new System.Drawing.Point(715, 48);
+            this.txtTongchiphi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTongchiphi.Name = "txtTongchiphi";
-            this.txtTongchiphi.Size = new System.Drawing.Size(218, 23);
+            this.txtTongchiphi.Size = new System.Drawing.Size(289, 27);
             this.txtTongchiphi.TabIndex = 117;
             // 
             // label8
@@ -89,9 +93,10 @@
             this.label8.ForeColor = System.Drawing.Color.Crimson;
             this.label8.Image = global::QLTCBasic.Properties.Resources._33;
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label8.Location = new System.Drawing.Point(12, 9);
+            this.label8.Location = new System.Drawing.Point(16, 11);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(147, 22);
+            this.label8.Size = new System.Drawing.Size(196, 27);
             this.label8.TabIndex = 111;
             this.label8.Text = "Mã báo cáo nhập kho";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -102,9 +107,10 @@
             this.label7.ForeColor = System.Drawing.Color.Crimson;
             this.label7.Image = global::QLTCBasic.Properties.Resources._33;
             this.label7.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label7.Location = new System.Drawing.Point(399, 38);
+            this.label7.Location = new System.Drawing.Point(532, 47);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(131, 22);
+            this.label7.Size = new System.Drawing.Size(175, 27);
             this.label7.TabIndex = 109;
             this.label7.Text = "Tổng chi phí nhập";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -115,9 +121,10 @@
             this.label6.ForeColor = System.Drawing.Color.Crimson;
             this.label6.Image = global::QLTCBasic.Properties.Resources._33;
             this.label6.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label6.Location = new System.Drawing.Point(399, 9);
+            this.label6.Location = new System.Drawing.Point(532, 11);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 22);
+            this.label6.Size = new System.Drawing.Size(175, 27);
             this.label6.TabIndex = 108;
             this.label6.Text = "Ngày nhập kho";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,9 +135,10 @@
             this.label4.ForeColor = System.Drawing.Color.Crimson;
             this.label4.Image = global::QLTCBasic.Properties.Resources._33;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label4.Location = new System.Drawing.Point(10, 39);
+            this.label4.Location = new System.Drawing.Point(13, 48);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 22);
+            this.label4.Size = new System.Drawing.Size(196, 27);
             this.label4.TabIndex = 105;
             this.label4.Text = "Ngày báo cáo";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -141,9 +149,10 @@
             this.btnBack.ForeColor = System.Drawing.Color.Crimson;
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBack.Location = new System.Drawing.Point(836, 12);
+            this.btnBack.Location = new System.Drawing.Point(1115, 15);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(153, 37);
+            this.btnBack.Size = new System.Drawing.Size(204, 46);
             this.btnBack.TabIndex = 101;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -152,9 +161,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
-            this.pictureBox1.Location = new System.Drawing.Point(-4, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(-5, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1009, 583);
+            this.pictureBox1.Size = new System.Drawing.Size(1345, 718);
             this.pictureBox1.TabIndex = 100;
             this.pictureBox1.TabStop = false;
             // 
@@ -163,17 +173,20 @@
             this.dgvBaocaonhapkho.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgvBaocaonhapkho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvBaocaonhapkho.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvBaocaonhapkho.Location = new System.Drawing.Point(12, 138);
+            this.dgvBaocaonhapkho.Location = new System.Drawing.Point(16, 170);
+            this.dgvBaocaonhapkho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvBaocaonhapkho.Name = "dgvBaocaonhapkho";
-            this.dgvBaocaonhapkho.Size = new System.Drawing.Size(977, 427);
+            this.dgvBaocaonhapkho.RowHeadersWidth = 51;
+            this.dgvBaocaonhapkho.Size = new System.Drawing.Size(1303, 526);
             this.dgvBaocaonhapkho.TabIndex = 121;
             // 
             // txtMabaocaothuchi
             // 
             this.txtMabaocaothuchi.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtMabaocaothuchi.Location = new System.Drawing.Point(165, 96);
+            this.txtMabaocaothuchi.Location = new System.Drawing.Point(220, 118);
+            this.txtMabaocaothuchi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMabaocaothuchi.Name = "txtMabaocaothuchi";
-            this.txtMabaocaothuchi.Size = new System.Drawing.Size(202, 23);
+            this.txtMabaocaothuchi.Size = new System.Drawing.Size(268, 27);
             this.txtMabaocaothuchi.TabIndex = 123;
             // 
             // label1
@@ -182,9 +195,10 @@
             this.label1.ForeColor = System.Drawing.Color.Crimson;
             this.label1.Image = global::QLTCBasic.Properties.Resources._33;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label1.Location = new System.Drawing.Point(11, 96);
+            this.label1.Location = new System.Drawing.Point(15, 118);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 22);
+            this.label1.Size = new System.Drawing.Size(197, 27);
             this.label1.TabIndex = 122;
             this.label1.Text = "Mã báo cáo thu chi";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -192,9 +206,10 @@
             // txtTennguoibaocao
             // 
             this.txtTennguoibaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTennguoibaocao.Location = new System.Drawing.Point(165, 67);
+            this.txtTennguoibaocao.Location = new System.Drawing.Point(220, 82);
+            this.txtTennguoibaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTennguoibaocao.Name = "txtTennguoibaocao";
-            this.txtTennguoibaocao.Size = new System.Drawing.Size(202, 23);
+            this.txtTennguoibaocao.Size = new System.Drawing.Size(268, 27);
             this.txtTennguoibaocao.TabIndex = 125;
             // 
             // label2
@@ -203,9 +218,10 @@
             this.label2.ForeColor = System.Drawing.Color.Crimson;
             this.label2.Image = global::QLTCBasic.Properties.Resources._33;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label2.Location = new System.Drawing.Point(12, 68);
+            this.label2.Location = new System.Drawing.Point(16, 84);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(148, 22);
+            this.label2.Size = new System.Drawing.Size(197, 27);
             this.label2.TabIndex = 124;
             this.label2.Text = "Tên người báo cáo";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -216,9 +232,10 @@
             this.btnThembaocao.ForeColor = System.Drawing.Color.Crimson;
             this.btnThembaocao.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnThembaocao.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnThembaocao.Location = new System.Drawing.Point(402, 82);
+            this.btnThembaocao.Location = new System.Drawing.Point(536, 101);
+            this.btnThembaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnThembaocao.Name = "btnThembaocao";
-            this.btnThembaocao.Size = new System.Drawing.Size(97, 37);
+            this.btnThembaocao.Size = new System.Drawing.Size(129, 46);
             this.btnThembaocao.TabIndex = 126;
             this.btnThembaocao.Text = "Thêm";
             this.btnThembaocao.UseVisualStyleBackColor = true;
@@ -231,9 +248,10 @@
             this.btnSuabaocao.ForeColor = System.Drawing.Color.Crimson;
             this.btnSuabaocao.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnSuabaocao.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnSuabaocao.Location = new System.Drawing.Point(526, 82);
+            this.btnSuabaocao.Location = new System.Drawing.Point(701, 101);
+            this.btnSuabaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSuabaocao.Name = "btnSuabaocao";
-            this.btnSuabaocao.Size = new System.Drawing.Size(102, 37);
+            this.btnSuabaocao.Size = new System.Drawing.Size(136, 46);
             this.btnSuabaocao.TabIndex = 127;
             this.btnSuabaocao.Text = "Sửa";
             this.btnSuabaocao.UseVisualStyleBackColor = true;
@@ -246,9 +264,10 @@
             this.btnXoabaocao.ForeColor = System.Drawing.Color.Crimson;
             this.btnXoabaocao.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnXoabaocao.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnXoabaocao.Location = new System.Drawing.Point(655, 82);
+            this.btnXoabaocao.Location = new System.Drawing.Point(873, 101);
+            this.btnXoabaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXoabaocao.Name = "btnXoabaocao";
-            this.btnXoabaocao.Size = new System.Drawing.Size(98, 37);
+            this.btnXoabaocao.Size = new System.Drawing.Size(131, 46);
             this.btnXoabaocao.TabIndex = 128;
             this.btnXoabaocao.Text = "Xóa";
             this.btnXoabaocao.UseVisualStyleBackColor = true;
@@ -260,9 +279,10 @@
             this.btnTimkiem.ForeColor = System.Drawing.Color.Crimson;
             this.btnTimkiem.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnTimkiem.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnTimkiem.Location = new System.Drawing.Point(836, 81);
+            this.btnTimkiem.Location = new System.Drawing.Point(1115, 100);
+            this.btnTimkiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTimkiem.Name = "btnTimkiem";
-            this.btnTimkiem.Size = new System.Drawing.Size(153, 37);
+            this.btnTimkiem.Size = new System.Drawing.Size(204, 46);
             this.btnTimkiem.TabIndex = 129;
             this.btnTimkiem.Text = "Tìm kiếm";
             this.btnTimkiem.UseVisualStyleBackColor = true;
@@ -270,9 +290,9 @@
             // 
             // FormBaocaonhapkho
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1001, 577);
+            this.ClientSize = new System.Drawing.Size(1335, 710);
             this.Controls.Add(this.btnTimkiem);
             this.Controls.Add(this.btnXoabaocao);
             this.Controls.Add(this.btnSuabaocao);
@@ -292,8 +312,10 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormBaocaonhapkho";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo cáo nhập kho";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBaocaonhapkho)).EndInit();

@@ -41,9 +41,10 @@
             this.btnLapphieudattiec.ForeColor = System.Drawing.Color.Crimson;
             this.btnLapphieudattiec.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnLapphieudattiec.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnLapphieudattiec.Location = new System.Drawing.Point(513, 238);
+            this.btnLapphieudattiec.Location = new System.Drawing.Point(684, 293);
+            this.btnLapphieudattiec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLapphieudattiec.Name = "btnLapphieudattiec";
-            this.btnLapphieudattiec.Size = new System.Drawing.Size(199, 94);
+            this.btnLapphieudattiec.Size = new System.Drawing.Size(265, 116);
             this.btnLapphieudattiec.TabIndex = 27;
             this.btnLapphieudattiec.Text = "Phiếu đặt tiệc";
             this.btnLapphieudattiec.UseVisualStyleBackColor = true;
@@ -55,9 +56,10 @@
             this.btnXuathoadon.ForeColor = System.Drawing.Color.Crimson;
             this.btnXuathoadon.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnXuathoadon.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnXuathoadon.Location = new System.Drawing.Point(269, 238);
+            this.btnXuathoadon.Location = new System.Drawing.Point(359, 293);
+            this.btnXuathoadon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXuathoadon.Name = "btnXuathoadon";
-            this.btnXuathoadon.Size = new System.Drawing.Size(199, 94);
+            this.btnXuathoadon.Size = new System.Drawing.Size(265, 116);
             this.btnXuathoadon.TabIndex = 26;
             this.btnXuathoadon.Text = "Hóa đơn";
             this.btnXuathoadon.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@
             this.btnBack.ForeColor = System.Drawing.Color.Crimson;
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBack.Location = new System.Drawing.Point(822, 12);
+            this.btnBack.Location = new System.Drawing.Point(1096, 15);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(135, 37);
+            this.btnBack.Size = new System.Drawing.Size(180, 46);
             this.btnBack.TabIndex = 25;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -80,23 +83,26 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
-            this.pictureBox1.Location = new System.Drawing.Point(-3, -5);
+            this.pictureBox1.Location = new System.Drawing.Point(-4, -6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(974, 572);
+            this.pictureBox1.Size = new System.Drawing.Size(1299, 704);
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
             // FormLap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(969, 563);
+            this.ClientSize = new System.Drawing.Size(1292, 693);
             this.Controls.Add(this.btnLapphieudattiec);
             this.Controls.Add(this.btnXuathoadon);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormLap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dịch vụ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

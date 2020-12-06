@@ -42,9 +42,10 @@
             this.btnBCNoibo.ForeColor = System.Drawing.Color.Crimson;
             this.btnBCNoibo.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBCNoibo.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBCNoibo.Location = new System.Drawing.Point(395, 233);
+            this.btnBCNoibo.Location = new System.Drawing.Point(527, 287);
+            this.btnBCNoibo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBCNoibo.Name = "btnBCNoibo";
-            this.btnBCNoibo.Size = new System.Drawing.Size(199, 94);
+            this.btnBCNoibo.Size = new System.Drawing.Size(265, 116);
             this.btnBCNoibo.TabIndex = 28;
             this.btnBCNoibo.Text = "Báo cáo thông tin nhập xuất kho";
             this.btnBCNoibo.UseVisualStyleBackColor = true;
@@ -56,9 +57,10 @@
             this.btnBCTaichinh.ForeColor = System.Drawing.Color.Crimson;
             this.btnBCTaichinh.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBCTaichinh.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBCTaichinh.Location = new System.Drawing.Point(639, 233);
+            this.btnBCTaichinh.Location = new System.Drawing.Point(852, 287);
+            this.btnBCTaichinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBCTaichinh.Name = "btnBCTaichinh";
-            this.btnBCTaichinh.Size = new System.Drawing.Size(199, 94);
+            this.btnBCTaichinh.Size = new System.Drawing.Size(265, 116);
             this.btnBCTaichinh.TabIndex = 27;
             this.btnBCTaichinh.Text = "Báo cáo tài chính";
             this.btnBCTaichinh.UseVisualStyleBackColor = true;
@@ -70,9 +72,10 @@
             this.btnBCBaotri.ForeColor = System.Drawing.Color.Crimson;
             this.btnBCBaotri.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBCBaotri.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBCBaotri.Location = new System.Drawing.Point(148, 233);
+            this.btnBCBaotri.Location = new System.Drawing.Point(197, 287);
+            this.btnBCBaotri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBCBaotri.Name = "btnBCBaotri";
-            this.btnBCBaotri.Size = new System.Drawing.Size(199, 94);
+            this.btnBCBaotri.Size = new System.Drawing.Size(265, 116);
             this.btnBCBaotri.TabIndex = 26;
             this.btnBCBaotri.Text = "Báo cáo thông tin bảo trì";
             this.btnBCBaotri.UseVisualStyleBackColor = true;
@@ -84,9 +87,10 @@
             this.btnBack.ForeColor = System.Drawing.Color.Crimson;
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnBack.Location = new System.Drawing.Point(823, 12);
+            this.btnBack.Location = new System.Drawing.Point(1097, 15);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(135, 37);
+            this.btnBack.Size = new System.Drawing.Size(180, 46);
             this.btnBack.TabIndex = 25;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -95,24 +99,27 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -3);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(974, 572);
+            this.pictureBox1.Size = new System.Drawing.Size(1299, 704);
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
             // Formbaocao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(970, 561);
+            this.ClientSize = new System.Drawing.Size(1293, 690);
             this.Controls.Add(this.btnBCNoibo);
             this.Controls.Add(this.btnBCTaichinh);
             this.Controls.Add(this.btnBCBaotri);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Formbaocao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo cáo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

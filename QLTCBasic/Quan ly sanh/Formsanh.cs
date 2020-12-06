@@ -20,9 +20,6 @@ namespace QLTCBasic
         private void btnBack_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            var main = new Main();
-            main.Closed += (s, args) => this.Close();
-            main.Show();
         }
 
         private void btnAddsanh_Click(object sender, EventArgs e)

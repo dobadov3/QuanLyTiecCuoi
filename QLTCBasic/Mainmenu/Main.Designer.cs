@@ -44,9 +44,10 @@
             this.button1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.Crimson;
             this.button1.Image = global::QLTCBasic.Properties.Resources._5;
-            this.button1.Location = new System.Drawing.Point(1023, 325);
+            this.button1.Location = new System.Drawing.Point(1364, 400);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 39);
+            this.button1.Size = new System.Drawing.Size(140, 48);
             this.button1.TabIndex = 8;
             this.button1.Text = "Đăng xuất";
             this.button1.UseVisualStyleBackColor = true;
@@ -57,9 +58,10 @@
             this.btnTaichinh.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnTaichinh.ForeColor = System.Drawing.Color.Crimson;
             this.btnTaichinh.Image = global::QLTCBasic.Properties.Resources._5;
-            this.btnTaichinh.Location = new System.Drawing.Point(653, 244);
+            this.btnTaichinh.Location = new System.Drawing.Point(871, 300);
+            this.btnTaichinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTaichinh.Name = "btnTaichinh";
-            this.btnTaichinh.Size = new System.Drawing.Size(125, 60);
+            this.btnTaichinh.Size = new System.Drawing.Size(167, 74);
             this.btnTaichinh.TabIndex = 7;
             this.btnTaichinh.Text = "Dịch vụ";
             this.btnTaichinh.UseVisualStyleBackColor = true;
@@ -70,9 +72,10 @@
             this.btnBaocao.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnBaocao.ForeColor = System.Drawing.Color.Crimson;
             this.btnBaocao.Image = global::QLTCBasic.Properties.Resources._5;
-            this.btnBaocao.Location = new System.Drawing.Point(406, 244);
+            this.btnBaocao.Location = new System.Drawing.Point(541, 300);
+            this.btnBaocao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBaocao.Name = "btnBaocao";
-            this.btnBaocao.Size = new System.Drawing.Size(125, 60);
+            this.btnBaocao.Size = new System.Drawing.Size(167, 74);
             this.btnBaocao.TabIndex = 6;
             this.btnBaocao.Text = "Báo cáo";
             this.btnBaocao.UseVisualStyleBackColor = true;
@@ -83,9 +86,10 @@
             this.btnHopdong.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnHopdong.ForeColor = System.Drawing.Color.Crimson;
             this.btnHopdong.Image = global::QLTCBasic.Properties.Resources._5;
-            this.btnHopdong.Location = new System.Drawing.Point(325, 113);
+            this.btnHopdong.Location = new System.Drawing.Point(433, 139);
+            this.btnHopdong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHopdong.Name = "btnHopdong";
-            this.btnHopdong.Size = new System.Drawing.Size(125, 60);
+            this.btnHopdong.Size = new System.Drawing.Size(167, 74);
             this.btnHopdong.TabIndex = 5;
             this.btnHopdong.Text = "Quản lý hợp đồng";
             this.btnHopdong.UseVisualStyleBackColor = true;
@@ -96,9 +100,10 @@
             this.btnKhachhang.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnKhachhang.ForeColor = System.Drawing.Color.Crimson;
             this.btnKhachhang.Image = global::QLTCBasic.Properties.Resources._5;
-            this.btnKhachhang.Location = new System.Drawing.Point(730, 113);
+            this.btnKhachhang.Location = new System.Drawing.Point(973, 139);
+            this.btnKhachhang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnKhachhang.Name = "btnKhachhang";
-            this.btnKhachhang.Size = new System.Drawing.Size(125, 60);
+            this.btnKhachhang.Size = new System.Drawing.Size(167, 74);
             this.btnKhachhang.TabIndex = 4;
             this.btnKhachhang.Text = "Quản lý thông tin khách hàng";
             this.btnKhachhang.UseVisualStyleBackColor = true;
@@ -109,9 +114,10 @@
             this.btnSanh.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSanh.ForeColor = System.Drawing.Color.Crimson;
             this.btnSanh.Image = global::QLTCBasic.Properties.Resources._5;
-            this.btnSanh.Location = new System.Drawing.Point(530, 51);
+            this.btnSanh.Location = new System.Drawing.Point(707, 63);
+            this.btnSanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSanh.Name = "btnSanh";
-            this.btnSanh.Size = new System.Drawing.Size(125, 60);
+            this.btnSanh.Size = new System.Drawing.Size(167, 74);
             this.btnSanh.TabIndex = 2;
             this.btnSanh.Text = "Quản lý sảnh";
             this.btnSanh.UseVisualStyleBackColor = true;
@@ -123,9 +129,10 @@
             this.label1.Font = new System.Drawing.Font("Rockwell Extra Bold", 28F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Crimson;
             this.label1.Image = global::QLTCBasic.Properties.Resources._5;
-            this.label1.Location = new System.Drawing.Point(438, 176);
+            this.label1.Location = new System.Drawing.Point(584, 217);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(309, 45);
+            this.label1.Size = new System.Drawing.Size(412, 55);
             this.label1.TabIndex = 1;
             this.label1.Text = "Wedding Us";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -134,16 +141,17 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._5;
             this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1204, 395);
+            this.pictureBox1.Size = new System.Drawing.Size(1605, 486);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1199, 396);
+            this.ClientSize = new System.Drawing.Size(1599, 487);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTaichinh);
             this.Controls.Add(this.btnBaocao);
@@ -152,8 +160,10 @@
             this.Controls.Add(this.btnSanh);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main menu";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

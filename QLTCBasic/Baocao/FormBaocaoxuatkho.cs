@@ -21,9 +21,6 @@ namespace QLTCBasic
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var main = new Formbaocao();
-            main.Closed += (s, args) => this.Close();
-            main.Show();
         }
 
         private void btnTimkiem_Click(object sender, EventArgs e)
