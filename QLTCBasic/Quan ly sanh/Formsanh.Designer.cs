@@ -48,7 +48,7 @@
             // 
             this.txtMasanh.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtMasanh.Location = new System.Drawing.Point(199, 46);
-            this.txtMasanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMasanh.Margin = new System.Windows.Forms.Padding(4);
             this.txtMasanh.Name = "txtMasanh";
             this.txtMasanh.Size = new System.Drawing.Size(289, 27);
             this.txtMasanh.TabIndex = 52;
@@ -61,7 +61,7 @@
             "B",
             "C"});
             this.cmbLoaisanh.Location = new System.Drawing.Point(199, 81);
-            this.cmbLoaisanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbLoaisanh.Margin = new System.Windows.Forms.Padding(4);
             this.cmbLoaisanh.Name = "cmbLoaisanh";
             this.cmbLoaisanh.Size = new System.Drawing.Size(289, 24);
             this.cmbLoaisanh.TabIndex = 46;
@@ -70,18 +70,19 @@
             // 
             this.txtTensanh.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTensanh.Location = new System.Drawing.Point(199, 10);
-            this.txtTensanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTensanh.Margin = new System.Windows.Forms.Padding(4);
             this.txtTensanh.Name = "txtTensanh";
             this.txtTensanh.Size = new System.Drawing.Size(289, 27);
             this.txtTensanh.TabIndex = 44;
             // 
             // dgvSanh
             // 
+            this.dgvSanh.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvSanh.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgvSanh.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSanh.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvSanh.Location = new System.Drawing.Point(16, 124);
-            this.dgvSanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvSanh.Margin = new System.Windows.Forms.Padding(4);
             this.dgvSanh.Name = "dgvSanh";
             this.dgvSanh.RowHeadersWidth = 51;
             this.dgvSanh.Size = new System.Drawing.Size(1103, 545);
@@ -94,7 +95,7 @@
             this.btnSuasanh.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnSuasanh.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnSuasanh.Location = new System.Drawing.Point(629, 68);
-            this.btnSuasanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSuasanh.Margin = new System.Windows.Forms.Padding(4);
             this.btnSuasanh.Name = "btnSuasanh";
             this.btnSuasanh.Size = new System.Drawing.Size(171, 49);
             this.btnSuasanh.TabIndex = 56;
@@ -109,7 +110,7 @@
             this.btnThemsanh.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnThemsanh.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnThemsanh.Location = new System.Drawing.Point(528, 10);
-            this.btnThemsanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemsanh.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemsanh.Name = "btnThemsanh";
             this.btnThemsanh.Size = new System.Drawing.Size(171, 47);
             this.btnThemsanh.TabIndex = 55;
@@ -163,7 +164,7 @@
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnBack.Location = new System.Drawing.Point(925, 10);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(193, 46);
             this.btnBack.TabIndex = 38;
@@ -175,7 +176,7 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
             this.pictureBox1.Location = new System.Drawing.Point(0, -9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1300, 695);
             this.pictureBox1.TabIndex = 36;
@@ -188,7 +189,7 @@
             this.btnXoasanh.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnXoasanh.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnXoasanh.Location = new System.Drawing.Point(724, 10);
-            this.btnXoasanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoasanh.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoasanh.Name = "btnXoasanh";
             this.btnXoasanh.Size = new System.Drawing.Size(171, 47);
             this.btnXoasanh.TabIndex = 57;
@@ -213,9 +214,10 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dgvSanh);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Formsanh";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý sảnh";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
