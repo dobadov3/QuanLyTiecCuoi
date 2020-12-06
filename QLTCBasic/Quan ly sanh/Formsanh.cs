@@ -27,9 +27,11 @@ namespace QLTCBasic
         {
             txtMasanh.DataBindings.Clear();
             txtTensanh.DataBindings.Clear();
+            cmbLoaisanh.DataBindings.Clear();
 
             txtMasanh.DataBindings.Add("Text", dgvSanh.DataSource, "MaSanh");
             txtTensanh.DataBindings.Add("Text", dgvSanh.DataSource, "TenSanh");
+            cmbLoaisanh.DataBindings.Add("Text", dgvSanh.DataSource, "LoaiSanh");
         }
         private void btnBack_Click_1(object sender, EventArgs e)
         {
@@ -39,16 +41,19 @@ namespace QLTCBasic
         private void btnAddsanh_Click(object sender, EventArgs e)
         {
             SanhBUS.Instance.Insert(txtMasanh, txtTensanh, cmbLoaisanh);
+            LoadData();
         }
 
         private void btnEditsanh_Click(object sender, EventArgs e)
         {
             SanhBUS.Instance.Update(txtMasanh, txtTensanh, cmbLoaisanh);
+            LoadData();
         }
 
         private void btnDelsanh_Click(object sender, EventArgs e)
         {
             SanhBUS.Instance.Delete(txtMasanh);
+            LoadData();
         }
     }
 }
