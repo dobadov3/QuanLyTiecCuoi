@@ -206,7 +206,7 @@ D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.csproj.CoreCompileI
 D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.csproj.CopyComplete
 D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.exe
 D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.pdb
+D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.FormCTBCThuchi.resources
 D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.FormChitietBan.resources
 D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.FormChitietDV.resources
 D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.FormChitietMonan.resources
-D:\LapTrinh\Git\QuanLyTiecCuoi\QLTCBasic\obj\Debug\QLTCBasic.FormCTBCThuchi.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QLTCBasic.BUS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,8 +16,21 @@ namespace QLTCBasic
         public Formsanh()
         {
             InitializeComponent();
+            LoadData();
         }
+        void LoadData()
+        {
+            SanhBUS.Instance.LoadSanh(dgvSanh);
+            AddBinding();
+        }
+        void AddBinding()
+        {
+            txtMasanh.DataBindings.Clear();
+            txtTensanh.DataBindings.Clear();
 
+            txtMasanh.DataBindings.Add("Text", dgvSanh.DataSource, "MaSanh");
+            txtTensanh.DataBindings.Add("Text", dgvSanh.DataSource, "TenSanh");
+        }
         private void btnBack_Click_1(object sender, EventArgs e)
         {
             this.Hide();
@@ -24,17 +38,17 @@ namespace QLTCBasic
 
         private void btnAddsanh_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thêm thành công!");
+            SanhBUS.Instance.Insert(txtMasanh, txtTensanh, cmbLoaisanh);
         }
 
         private void btnEditsanh_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Sửa thành công!");
+            SanhBUS.Instance.Update(txtMasanh, txtTensanh, cmbLoaisanh);
         }
 
         private void btnDelsanh_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xóa thành công!");
+            SanhBUS.Instance.Delete(txtMasanh);
         }
     }
 }

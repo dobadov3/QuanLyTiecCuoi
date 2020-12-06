@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="BUS\AccountBUS.cs" />
     <Compile Include="BUS\KhachHangBUS.cs" />
+    <Compile Include="BUS\SanhBUS.cs" />
     <Compile Include="DAL\Account.cs">
       <DependentUpon>Wedding.tt</DependentUpon>
     </Compile>
@@ -147,6 +148,7 @@
     </Compile>
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\KhachHangDAO.cs" />
+    <Compile Include="DAO\SanhDAO.cs" />
     <Compile Include="Dich vu\FormChitietBan.cs">
       <SubType>Form</SubType>
     </Compile>

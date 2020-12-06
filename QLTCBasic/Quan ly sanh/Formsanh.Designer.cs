@@ -56,6 +56,10 @@
             // cmbLoaisanh
             // 
             this.cmbLoaisanh.FormattingEnabled = true;
+            this.cmbLoaisanh.Items.AddRange(new object[] {
+            "A",
+            "B",
+            "C"});
             this.cmbLoaisanh.Location = new System.Drawing.Point(199, 81);
             this.cmbLoaisanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbLoaisanh.Name = "cmbLoaisanh";
@@ -212,7 +216,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Formsanh";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý sảnh";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

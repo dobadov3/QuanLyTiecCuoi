@@ -35,6 +35,9 @@ namespace QLTCBasic
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
+            var main = new FormPhieudattiec();
+            main.ShowDialog();
+            this.Show();
         }
     }
 }
