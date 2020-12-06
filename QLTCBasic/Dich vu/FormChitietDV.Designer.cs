@@ -58,7 +58,7 @@
             // 
             this.txtTendichvu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTendichvu.Location = new System.Drawing.Point(199, 82);
-            this.txtTendichvu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTendichvu.Margin = new System.Windows.Forms.Padding(4);
             this.txtTendichvu.Name = "txtTendichvu";
             this.txtTendichvu.Size = new System.Drawing.Size(289, 27);
             this.txtTendichvu.TabIndex = 133;
@@ -67,7 +67,7 @@
             // 
             this.txtMadichvu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtMadichvu.Location = new System.Drawing.Point(199, 47);
-            this.txtMadichvu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMadichvu.Margin = new System.Windows.Forms.Padding(4);
             this.txtMadichvu.Name = "txtMadichvu";
             this.txtMadichvu.Size = new System.Drawing.Size(289, 27);
             this.txtMadichvu.TabIndex = 131;
@@ -76,7 +76,7 @@
             // 
             this.txtMatiec.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtMatiec.Location = new System.Drawing.Point(199, 11);
-            this.txtMatiec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMatiec.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatiec.Name = "txtMatiec";
             this.txtMatiec.Size = new System.Drawing.Size(289, 27);
             this.txtMatiec.TabIndex = 130;
@@ -85,7 +85,7 @@
             // 
             this.txtDongiadichvu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtDongiadichvu.Location = new System.Drawing.Point(723, 11);
-            this.txtDongiadichvu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDongiadichvu.Margin = new System.Windows.Forms.Padding(4);
             this.txtDongiadichvu.Name = "txtDongiadichvu";
             this.txtDongiadichvu.Size = new System.Drawing.Size(289, 27);
             this.txtDongiadichvu.TabIndex = 135;
@@ -94,7 +94,7 @@
             // 
             this.txtThanhtiendichvu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtThanhtiendichvu.Location = new System.Drawing.Point(723, 82);
-            this.txtThanhtiendichvu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtThanhtiendichvu.Margin = new System.Windows.Forms.Padding(4);
             this.txtThanhtiendichvu.Name = "txtThanhtiendichvu";
             this.txtThanhtiendichvu.Size = new System.Drawing.Size(289, 27);
             this.txtThanhtiendichvu.TabIndex = 137;
@@ -103,7 +103,7 @@
             // 
             this.txtSoluongdichvu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtSoluongdichvu.Location = new System.Drawing.Point(723, 47);
-            this.txtSoluongdichvu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoluongdichvu.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoluongdichvu.Name = "txtSoluongdichvu";
             this.txtSoluongdichvu.Size = new System.Drawing.Size(289, 27);
             this.txtSoluongdichvu.TabIndex = 139;
@@ -114,7 +114,7 @@
             this.dgvChitietDV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChitietDV.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvChitietDV.Location = new System.Drawing.Point(16, 213);
-            this.dgvChitietDV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvChitietDV.Margin = new System.Windows.Forms.Padding(4);
             this.dgvChitietDV.Name = "dgvChitietDV";
             this.dgvChitietDV.RowHeadersWidth = 51;
             this.dgvChitietDV.Size = new System.Drawing.Size(1309, 470);
@@ -124,7 +124,7 @@
             // 
             this.txtLoaidichvu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtLoaidichvu.Location = new System.Drawing.Point(199, 118);
-            this.txtLoaidichvu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLoaidichvu.Margin = new System.Windows.Forms.Padding(4);
             this.txtLoaidichvu.Name = "txtLoaidichvu";
             this.txtLoaidichvu.Size = new System.Drawing.Size(289, 27);
             this.txtLoaidichvu.TabIndex = 142;
@@ -133,7 +133,7 @@
             // 
             this.txtGhichu.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtGhichu.Location = new System.Drawing.Point(723, 118);
-            this.txtGhichu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGhichu.Margin = new System.Windows.Forms.Padding(4);
             this.txtGhichu.Name = "txtGhichu";
             this.txtGhichu.Size = new System.Drawing.Size(289, 27);
             this.txtGhichu.TabIndex = 144;
@@ -246,7 +246,7 @@
             // 
             this.pictureBox1.Image = global::QLTCBasic.Properties.Resources._33;
             this.pictureBox1.Location = new System.Drawing.Point(-5, -4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1373, 704);
             this.pictureBox1.TabIndex = 84;
@@ -259,7 +259,7 @@
             this.btnXoa.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnXoa.Location = new System.Drawing.Point(824, 154);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(189, 52);
             this.btnXoa.TabIndex = 159;
@@ -274,7 +274,7 @@
             this.btnSua.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnSua.Location = new System.Drawing.Point(1136, 154);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(189, 52);
             this.btnSua.TabIndex = 158;
@@ -289,7 +289,7 @@
             this.btnThem.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnThem.Location = new System.Drawing.Point(544, 154);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(171, 53);
             this.btnThem.TabIndex = 157;
@@ -304,7 +304,7 @@
             this.btnBack.Image = global::QLTCBasic.Properties.Resources._33;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnBack.Location = new System.Drawing.Point(1121, 15);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(204, 34);
             this.btnBack.TabIndex = 156;
@@ -339,11 +339,11 @@
             this.Controls.Add(this.txtMatiec);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FormChitietDV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Chi tiết dịch vụ";
+            this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.dgvChitietDV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
